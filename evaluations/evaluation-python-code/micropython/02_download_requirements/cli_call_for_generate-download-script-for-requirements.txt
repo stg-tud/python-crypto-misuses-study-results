@@ -1,0 +1,1 @@
+python3 generate-download-script-for-requirements.py -i /media/ubuntu/DATA/repositories-micropython -o download_script_for_micropython_requirements.sh >> generate-download-script-for-micropython-requirements-log.txt

@@ -1,0 +1,1 @@
+python3 generate-download-script-for-requirements.py -i /media/ubuntu/DATA/repositories-python -o download_script_for_requirements.sh >> generate-download-script-for-requirements-log.txt

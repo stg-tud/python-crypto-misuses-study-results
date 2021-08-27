@@ -1,0 +1,31 @@
+1136:Difference between archive and dir(1136):
+1137:Archive(1136): /media/ubuntu/DATA/repositories-python/trailofbits__algo/requirements_licma_analysis/ansible-2.8.8.tar.gz
+1138:Dir(1136): /media/ubuntu/DATA/repositories-python/trailofbits__algo/requirements_licma_analysis/ansible-2.8.8
+2382:Difference between archive and dir(2380):
+2383:Archive(2380): /media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/ansible-2.6.20.tar.gz
+2384:Dir(2380): /media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/ansible-2.6.20
+2398:Difference between archive and dir(2394):
+2399:Archive(2394): /media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/ansible-2.9.11.tar.gz
+2400:Dir(2394): /media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/ansible-2.9.11
+11987:Difference between archive and dir(11981):
+11988:Archive(11981): /media/ubuntu/DATA/repositories-python/freedomofpress__securedrop/requirements_licma_analysis/ansible-2.9.7.tar.gz
+11989:Dir(11981): /media/ubuntu/DATA/repositories-python/freedomofpress__securedrop/requirements_licma_analysis/ansible-2.9.7
+14220:Difference between archive and dir(14212):
+14221:Archive(14212): /media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/ansible-2.7.8.tar.gz
+14222:Dir(14212): /media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/ansible-2.7.8
+14453:Difference between archive and dir(14443):
+14454:Archive(14443): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/not-correctly-unzipped-wrong-file-size.zip
+14455:Dir(14443): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/not-correctly-unzipped-wrong-file-size
+14456:Difference between archive and dir(14444):
+14457:Archive(14444): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/not-correctly-unzipped-missing-files.zip
+14458:Dir(14444): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/not-correctly-unzipped-missing-files
+14459:Not unzipped(14445): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/package-duplicate
+14460:Not unzipped(14446): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/package-not-unzipped
+14461:Not unzipped(14447): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/package-duplicate
+14462:Not unzipped(14448): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/package-not-unzipped-targz
+14463:Difference between archive and dir(14449):
+14464:Archive(14449): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/not-correctly-unzipped-wrong-file-size-targz.tar.gz
+14465:Dir(14449): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/not-correctly-unzipped-wrong-file-size-targz
+14466:Difference between archive and dir(14450):
+14467:Archive(14450): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/not-correctly-unzipped-missing-files-targz.tar.gz
+14468:Dir(14450): /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/not-correctly-unzipped-missing-files-targz

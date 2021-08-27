@@ -1,0 +1,353 @@
+---
+title: "LICMA Evaluation"
+output: github_document
+---
+
+# LICMA Evaluation Python 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+if(!require('pacman')) irnstall.packages("pacman")
+pacman::p_load(dplyr, readr, stringr, ggplot2, here, viridis, forcats)
+```
+
+## Overview Misuses
+
+```{r readMisuses, include = TRUE}
+# TODO parametrize
+misuses <- readr::read_csv2(here("evaluations", "evaluation-python-code", "python", "06_licma_analysis_results", "FINAL_licma-result-2020-08-06_152020507612.csv"))
+misuses.distinct <- dplyr::distinct(misuses)
+
+# Split Rule into RuleID and Lib
+misuses <- misuses %>%
+  tidyr::separate(Rule, c(NA, NA, "RuleID", "Lib"))
+```
+
+We got `r nrow(misuses)` misuses and `r nrow(misuses.distinct)` distinct misuses. 
+We have no duplicated misuse: `r nrow(misuses) == nrow(misuses.distinct)`.
+
+```{r ruleToLib, include=TRUE}
+RuleID <- c("1", "2", "3", "4", "5")
+ruleLib <- misuses %>%
+  mutate(RuleID = factor(RuleID)) %>%
+  mutate(Lib = factor(Lib)) %>%
+  group_by(RuleID, Lib, .drop = F) %>%
+  summarize(n = n()) 
+ruleLib$RuleID <- factor(ruleLib$RuleID, levels = c ("5", "4", "3", "2", "1"))
+
+ggplot(ruleLib, aes(x=factor(RuleID), y=n, fill=factor(Lib))) +
+  geom_bar(aes(width=0.8), position="dodge", stat="identity")  +
+  geom_text(aes(label = n), position = position_dodge(width = 0.85), size = 5, hjust = 0) + 
+  coord_flip() + 
+  scale_fill_viridis(discrete = TRUE, option = "D", drop = FALSE) +
+  scale_x_discrete(labels=c("1" = expression("\u00A71"), "2" = expression("\u00A72"), "3" = expression("\u00A73"), "4" = expression("\u00A74"), "5" = expression("\u00A75"))) +
+  ylab("Number of misuses") +
+  ylim(0, 500) +
+  facet_wrap(vars(Lib)) +
+  theme(legend.position="none", axis.title.y = element_blank(), axis.title.x = element_text(size = 18, face = "italic"),text = element_text(size=18))
+ggplot2::ggsave(here("evaluations", "evaluation-python-code", "python", "06_licma_analysis_results", "ruleLib.png"), width=200, height = 140, units = c("mm"), dpi = "print")
+```
+
+## Projects 
+
+```{r projects}
+# Get the projects of a misuse
+misuses <- misuses %>%
+  mutate(File = stringr::str_replace(File, "/media/ubuntu/DATA/repositories-python/", "")) %>%
+  mutate(Project = stringr::str_extract(File, "(([^//]*))"))
+  #mutate(Project = gsub("(//([^//]*))", "MATCH", File))
+
+files <- misuses %>%
+  group_by(File) %>%
+  summarize(count = n()) %>%
+  dplyr::arrange(desc(count))
+
+projects <- misuses %>%
+  group_by(Project) %>%
+  summarize(count = n()) %>%
+  dplyr::arrange(desc(count))
+
+filesPerProject <- misuses %>%
+  group_by(File, Project) %>%
+  summarize(fpmisuses = n()) %>%
+  group_by(Project) %>%
+  mutate(filesProject = n()) %>%
+  dplyr::arrange(desc(filesProject))
+```
+
+We have found misuses in `r nrow(files)` different files and in `r nrow(projects)` projects.
+
+```{r filesPerProject}
+ggplot(filesPerProject, aes("", filesProject)) + 
+  geom_boxplot() + 
+  coord_flip() +
+  labs(y="# of files with misuses per project", x = "")
+```
+
+The distribution of the number of misuses per file and project (*fpmisuses*) and the number of files with a misuses per project (*filesProject*):
+`r summary(filesPerProject)`
+
+## Get Number of Projects and Files with Error 
+
+```{r projectsFilesError}
+# Read log file into R
+log <- read.table(here("evaluations", "evaluation-python-code" , "python", "06_licma_analysis_results", "FINAL_licma2020-08-06_151938992667-log.txt"),
+   header = FALSE, sep = "|")
+log <- log %>%
+  mutate(Status = str_trim(V2)) %>%
+  mutate(Filepath = str_trim(V3))
+readr::write_csv(log, "./log.csv")
+
+# Get the error files (only parse problem due to "inconsistent" handling of |) 
+error_files <- log %>%
+  filter(Status == "ERROR") %>%
+  filter(stringr::str_detect(Filepath, "parsing not possible: ")) %>%
+  mutate(File = stringr::str_replace(Filepath, "parsing not possible: ", "")) %>%
+  mutate(File = stringr::str_replace(File, "/media/ubuntu/DATA/repositories-python/", "")) %>%
+  mutate(Project = stringr::str_extract(File, "(([^//]*))"))
+projects_no_parse <- error_files %>%
+  group_by(Project) %>%
+  summarize(n = n()) %>%
+  dplyr::arrange(desc(n))
+View(error_files)
+
+# Projects without successful parse and not included in misuses 
+no_misuse_parse <- dplyr::anti_join(projects_no_parse, misuses, by="Project")
+
+# Read helper file with maxrecursion cat FINAL_licma2020-08-06_151938992667-log.txt | rg "maximum recursion depth exceeded" > maxrecursion.txt
+maxrecursion <- read.table(here("evaluations", "evaluation-python-code" , "python", "06_licma_analysis_results", "maxrecursion.txt"),
+   header = FALSE, sep = "|")
+maxrecursion <- maxrecursion %>%
+  mutate(Filepath = str_trim(V6)) %>%
+  mutate(File = stringr::str_replace(Filepath, "file: /media/ubuntu/DATA/repositories-python/", ""))  %>%
+  mutate(Project = stringr::str_extract(File, "(([^//]*))"))
+projects_recursion <- maxrecursion %>%
+  group_by(Project) %>%
+  summarize(n = n()) %>%
+  dplyr::arrange(desc(n))
+
+# Projects without max recursion and not included in missues
+no_misuse_rec <- dplyr::anti_join(projects_recursion, misuses, by = "Project")
+
+# Projects error
+projects_error <- dplyr::bind_rows(projects_no_parse, projects_recursion) %>%
+  group_by(Project) %>%
+  summarize(n = n())
+no_misuse <- dplyr::anti_join(projects_error, misuses, by = "Project")
+
+# Check which of the projects run successful and did not result in a misuse
+successfulanalysis <- log %>%
+  filter(Status == "INFO") %>%
+  filter(stringr::str_detect(Filepath, "processing: ")) %>%
+  mutate(File = stringr::str_replace(Filepath, "processing: /media/ubuntu/DATA/repositories-python/", "")) %>%
+  mutate(Project = stringr::str_extract(File, "(([^//]*))")) 
+successfulanalysis_projects <- successfulanalysis %>%
+  group_by(Project) %>%
+  summarize(n = n()) %>%
+  dplyr::arrange(desc(n))
+
+# Check which projects cause and error and do not have a successful analysis run
+kickedout <- dplyr::anti_join(projects_error, successfulanalysis_projects, by = "Project")
+nrow(kickedout)
+# At least one successful and one unsuccessful analysis run
+both <- dplyr::semi_join(projects_error, successfulanalysis_projects, by = "Project")
+#nrow(both)
+#nrow(projects_error)
+#nrow(successfulanalysis_projects)
+```
+
+In total, we have `r nrow(projects_no_parse) -1` projects which have files which do not parse.
+From these projects, `r nrow(no_misuse_parse) -1` projects have no misuse in another file. 
+In total, we have `r nrow(projects_recursion)` projects which have files which hits the maximum recursion.
+From these projects, `r nrow(no_misuse_rec)` projects have no misuse in another file. 
+Both sources of errors combined, `r nrow(projects_error)` projects cause an error while analyzing.
+Of these projects, `r nrow(no_misuse)` projects have no misuse in another file. 
+In total, we analyzed `r nrow(successfulanalysis_projects)` projects successfully. 
+Of the projects causing an error, `r nrow(kickedout)` projects have no successful analysis of at least one class file. 
+
+```{r code-dependencies}
+dependencies <- misuses %>%
+  filter(stringr::str_detect(File, "requirements_licma_analysis")) %>% 
+  mutate(Loc = "Dep") 
+repo <- misuses %>%
+  filter(!stringr::str_detect(File, "requirements_licma_analysis")) %>% 
+  mutate(Loc = "Repo")
+misuses <- dplyr::bind_rows(dependencies, repo) 
+```
+
+```{r dependency-misuses-graph}
+colnames(misuses)[colnames(misuses) == "Hit-Type"] <- "Hit"
+
+misuses %>%
+  group_by(Loc, Hit) %>%
+  summarize(n = n()) %>%
+  ggplot(aes(x=factor(Loc), y=n, fill=factor(Hit))) +
+  geom_bar(stat="identity", position = "dodge")  +
+#  geom_text(aes(label = n), size = 3, hjust= 1, vjust = 0.5, position = position_dodge(0.9)) +
+  coord_flip() + 
+  scale_fill_viridis(discrete = TRUE, option = "D", drop = FALSE) +
+  ylab("Number of misuses") +
+  xlab("Dependency or Application") 
+```
+
+```{r projectsOnlyDependencies}
+projectsMisusesRepo <- misuses %>%
+  filter(Loc == "Repo") %>%
+  group_by(Project) %>%
+  summarize(n = n()) %>%
+  dplyr::arrange(desc(n))
+nrow(projectsMisusesRepo)
+summary(projectsMisusesRepo)
+```
+
+
+## Get the reasons of critical misuses
+
+```{r criticalmisuses}
+colnames(misuses)[colnames(misuses) == "Parameter-Value"] <- "ParameterValue"
+critical <- misuses %>%
+  filter(Hit == "critical")
+description <- critical %>%
+  group_by(Misuse) %>%
+  summarize(n = n()) %>%
+  dplyr::arrange(desc(n))
+# hard coded int  
+hardint <- critical %>%
+  filter(stringr::str_detect(Misuse, "hard coded int"))
+hardintprojects <- hardint %>%
+  group_by(Project) %>%
+  summarize(n = n()) %>%
+  dplyr::arrange(desc(n))
+hardintvalue <- hardint %>%
+  group_by(ParameterValue) %>%
+  summarize(n = n()) %>%
+  dplyr::arrange(desc(n))
+
+# hard coded byte
+hardbyte <- critical %>%
+  filter(stringr::str_detect(Misuse, "hard coded byte"))
+hardbyteprojects <- hardbyte %>%
+  group_by(Project) %>% 
+  summarize(n = n())
+# ECB
+ecb <- critical %>%
+  filter(ParameterValue == "MODE_ECB")
+View(ecb)
+hardcodedattribute <- description %>% filter(stringr::str_detect(Misuse, "hard coded attribute"))
+ecbprojects <- ecb %>%
+  group_by(Project) %>%
+  summarize(n = n()) %>%
+  dplyr::arrange(desc(n))
+rule1 <- critical %>%
+  filter(RuleID == "1")
+
+## Rule 2: Do not use a non-random initiliazationvector (IV) for ciphertext block chaining(CBC) encryption
+rule2 <- critical %>%
+  filter(RuleID == "2")
+rule2projects <- rule2 %>%
+  group_by(Project) %>%
+  summarize(n =n ())
+
+## Rule 3: Do not use constant encryption keys.
+rule3 <- critical %>%
+  filter(RuleID == "3")
+rule3projects <- rule3 %>%
+  group_by(Project) %>%
+  summarize(n = n())
+View(critical)
+
+# Rule 4: Do not use constant salts for password-based encryption (PBE).
+rule4 <- critical %>%
+  filter(RuleID == "4")
+rule4projects <- rule4 %>% 
+  group_by(Project) %>%
+  summarize(n = n())
+print(rule4[[17,1]])
+
+# Rule 5: Do not use fewer than 1,000 iterationsfor PBE.
+rule5 <- critical %>%
+  filter(RuleID == "5")
+rule5projects <- rule5 %>%
+  group_by(Project) %>%
+  summarize(n = n())
+
+# Number of critical projects
+criticalprojects <- critical %>%
+  group_by(Project) %>%
+  summarize(n = n())
+```
+
+Of the `r nrow(critical)` critical misuses, we identified:
+
+- a misuse due to ECB mode for `r nrow(ecb)` which covers all hard coded attribute misuses: `r nrow(ecb) == hardcodedattribute$n`. ECB was used as encryption mode within `r nrow(ecbprojects)` projects. All misuses due to ECB are misuse due to rule 1 (should be): `r nrow(rule1) == nrow(ecb)`.
+- a hard coded byte for AES.new and improper init (Rule 2): `r nrow(rule2)` within `r nrow(rule2projects)` projects. 
+  - Example of a static IV: https://github.com/SecureAuthCorp/impacket/blob/master/impacket/krb5/crypto.py#L435
+- a constant encryption key (Rule 3): `r nrow(rule3)` misuses within `r nrow(rule3projects)` projects 
+  - Example of a static key: https://github.com/secdev/scapy/blob/master/scapy/layers/tls/crypto/cipher_stream.py#L57 (parameter) within line https://github.com/secdev/scapy/blob/master/scapy/layers/tls/crypto/cipher_stream.py#L62
+  - For two projects, these are duplicates due to scapy (repo & dependency) 
+- a constant salt for PBE (Rule 4): `r nrow(rule4)` misuses within `r nrow(rule4projects)` projects
+  - Example of a constant salt: https://github.com/jrnl-org/jrnl/blob/develop/jrnl/EncryptedJournal.py#L31
+  - Another example like in our business study that the value is empty if the loop isn't entered: https://github.com/cloudera/hue/blob/master/desktop/core/ext-py/pycryptodomex-3.9.7/lib/Cryptodome/Protocol/KDF.py#L405 
+- Fewer than 1000 iterations (Rule 5): `r nrow(rule5)` misuses within `r nrow(rule5projects)` projects
+  - a hard coded int PDKDF2 for `r nrow(hardint)` within `r nrow(hardintprojects)` different projects. All (`r nrow(hardint) == hardintvalue$n`) misuses due to a hard coded integer value have the value 1 (iteration count should be higher than 1000). 
+    - Example that iteration count is one: https://github.com/cloudera/hue/blob/8aa24a89648ab7c079cbce7369481fefbc05efc7/desktop/core/ext-py/pycryptodomex-3.9.7/lib/Cryptodome/Protocol/KDF.py#L385
+    - Example that iteration count is one: https://github.com/cloudera/hue/blob/8aa24a89648ab7c079cbce7369481fefbc05efc7/desktop/core/ext-py/pycryptodomex-3.9.7/lib/Cryptodome/Protocol/KDF.py#L406
+- `r nrow(criticalprojects)` distinct projects are affected by critical misuses. 
+
+```{r criticalmisusesrules}
+critical %>%
+  group_by(RuleID) %>%
+  summarize(n = n()) %>%
+  ggplot(aes(x=factor(RuleID), y=n)) +
+  geom_bar(position="dodge", stat="identity")  +
+  geom_text(aes(label = n), position = position_dodge(width = 0.85), size = 3, hjust = - 0.5) + 
+  coord_flip() + 
+  scale_fill_viridis(discrete = TRUE, option = "D", drop = FALSE) +
+  ylab("Number of misuses") +
+  xlab("Rule") +
+  theme(legend.position="none")
+```
+
+## Further investigations to understand the data 
+
+
+### Dependencies within the application code via the *ext-py* folder
+
+```{r extpy}
+extpy <- repo %>%
+  filter(stringr::str_detect(File, "ext-py"))
+extpyproj <- extpy %>%
+  group_by(Project) %>%
+  summarize(n = n())
+```
+
+In total, we have `r nrow(extpy)` (`r nrow(extpy) / nrow(repo) * 100`) misuses with *ext-py* within the path name. This affects `r nrow(extpyproj)` different projects. 
+
+## Graphs for the Paper
+
+```{r TopReposMisuses}
+misusesgrouped <- misuses %>%
+    group_by(Project, Loc) %>%
+    summarize(n = n()) %>%
+    group_by(Project) %>%
+    mutate(projmisuses = sum(n)) %>%
+    filter(projmisuses > 30) %>%
+    ungroup() %>%
+    mutate(Project= fct_reorder(Project, projmisuses))
+ggplot(misusesgrouped, aes(x = Project, y = n, fill = Loc)) +
+  geom_bar(aes(width = 0.7), stat = "identity") +
+  #Add the number of misuses correctly within each bar.
+  geom_text(aes(label = n, group = Loc), position = position_stack(vjust = 0.9), size = 5) +
+  coord_flip() +
+  ylab("Number of missues per GitHub project") +
+  labs(fill = "Location") +
+  theme(axis.title.y = element_blank(),axis.title.x = element_text(size = 18, face = "italic"),text = element_text(size = 18)) +
+  theme(legend.position = c(1, 0), legend.justification = c(1, 0)) +
+  scale_x_discrete(labels = function(x){sub("__", "\n/", x)}) +
+  scale_fill_viridis(discrete = TRUE, option = "D", begin = 0.7, end = 0.9,  drop = FALSE, labels = c("Dependency", "Application"))
+ggplot2::ggsave(here("evaluations", "evaluation-python-code", "python", "06_licma_analysis_results", "toprepos.png"), width=200, height = 140, units = c("mm"), dpi = "print")
+``` 
+
+```{r TopDepsMisuses}
+View(misuses)
+```

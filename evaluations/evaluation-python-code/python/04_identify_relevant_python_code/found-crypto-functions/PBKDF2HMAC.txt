@@ -1,0 +1,126 @@
+/media/ubuntu/DATA/repositories-python/nvbn__thefuck/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/ansible__ansible/lib/ansible/parsing/vault/__init__.py:        kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/apache__incubator-superset/requirements_licma_analysis/cryptography-2.8-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/certbot__certbot/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/certbot__certbot/requirements_licma_analysis/cryptography-2.8-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/localstack__localstack/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/docker__compose/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/trailofbits__algo/requirements_licma_analysis/ansible-2.8.8/ansible-2.8.8/lib/ansible/parsing/vault/__init__.py:        kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/trailofbits__algo/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/encode__django-rest-framework/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/apache__airflow/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/python-telegram-bot__python-telegram-bot/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/python-poetry__poetry/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/timgrossmann__InstaPy/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/ansible-2.6.20/ansible-2.6.20/lib/ansible/parsing/vault/__init__.py:        kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/ansible-2.9.11/ansible-2.9.11/lib/ansible/parsing/vault/__init__.py:        kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/mirumee__saleor/requirements_licma_analysis/graphene-federation-0.1.0/graphene-federation-0.1.0/graphene_federation/venv/lib64/python3.6/site-packages/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/mirumee__saleor/requirements_licma_analysis/graphene-federation-0.1.0/graphene-federation-0.1.0/graphene_federation/venv/lib/python3.6/site-packages/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/scrapinghub__portia/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/openai__universe/requirements_licma_analysis/autobahn-20.7.1-py2.py3-none-any/autobahn/wamp/auth.py:    kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/MagicStack__uvloop/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/Gallopsled__pwntools/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/boto__boto/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/asciimoo__searx/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/deis__deis/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/ajenti__ajenti/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/cryptography-2.9.2-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/readthedocs__readthedocs.org/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/jupyterhub__jupyterhub/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/AlessandroZ__LaZagne/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/trustedsec__social-engineer-toolkit/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/taigaio__taiga-back/requirements_licma_analysis/cryptography-2.3.1-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/secdev__scapy/scapy/modules/krack/automaton.py:        self.pmk = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/FeatureLabs__featuretools/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/docker__docker-py/requirements_licma_analysis/cryptography-2.3-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/SecureAuthCorp__impacket/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/smicallef__spiderfoot/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/SpiderClub__haipproxy/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/deepmipt__DeepPavlov/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/jrnl-org__jrnl/jrnl/EncryptedJournal.py:    kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/google__clusterfuzz/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/docs/fernet.rst:    >>> kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/docs/hazmat/primitives/key-derivation-functions.rst:.. class:: PBKDF2HMAC(algorithm, length, salt, iterations, backend)
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/docs/hazmat/primitives/key-derivation-functions.rst:        >>> kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/docs/hazmat/primitives/key-derivation-functions.rst:        >>> kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/src/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:            PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:            PBKDF2HMAC(hashes.SHA1(), 20, u"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 10, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, pretend_backend)
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/cryptography-2.9/tests/hazmat/primitives/utils.py:    kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/cryptography-2.8-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/stewartmcgown__uds/requirements_licma_analysis/cryptography-2.3.1-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/django-crispy-forms__django-crispy-forms/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/Kinto__kinto/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__CrackMapExec/requirements_licma_analysis/cryptography-2.9-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/jarun__buku/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/offu__WeRoBot/requirements_licma_analysis/cryptography-2.9.2-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/QUANTAXIS__QUANTAXIS/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/eudicots__Cactus/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/docs/fernet.rst:    >>> kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/docs/hazmat/primitives/key-derivation-functions.rst:.. class:: PBKDF2HMAC(algorithm, length, salt, iterations, backend)
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/docs/hazmat/primitives/key-derivation-functions.rst:        >>> kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/docs/hazmat/primitives/key-derivation-functions.rst:        >>> kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/src/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:            PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:            PBKDF2HMAC(hashes.SHA1(), 20, u"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 10, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/test_pbkdf2hmac.py:        PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, pretend_backend)
+/media/ubuntu/DATA/repositories-python/pyca__cryptography/tests/hazmat/primitives/utils.py:    kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/guardicore__monkey/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/python-trio__trio/requirements_licma_analysis/cryptography-2.9.2-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/cowrie__cowrie/requirements_licma_analysis/cryptography-2.9.2-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/zalando__connexion/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/mantl__mantl/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/theskumar__python-dotenv/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/samuelcolvin__pydantic/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__MITMf/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__MITMf/requirements_licma_analysis/scapy-2.4.3/scapy-2.4.3/scapy/modules/krack/automaton.py:        self.pmk = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/r0oth3x49__udemy-dl/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/golemfactory__golem/requirements_licma_analysis/autobahn-19.6.2-py2.py3-none-any/autobahn/wamp/auth.py:    kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/golemfactory__golem/requirements_licma_analysis/cryptography-2.7-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/freedomofpress__securedrop/requirements_licma_analysis/cryptography-2.7-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/freedomofpress__securedrop/requirements_licma_analysis/cryptography-2.6.1-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/cloud-custodian__cloud-custodian/requirements_licma_analysis/cryptography-2.9.2-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/dyve__django-bootstrap3/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/crossbario__autobahn-python/autobahn/wamp/auth.py:    kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/datawire__ambassador/requirements_licma_analysis/cryptography-2.9.2-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/ysrc__xunfeng/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/OpenDroneMap__ODM/requirements_licma_analysis/cryptography-2.8-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/pritunl__pritunl/tools/builder.py:    kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/pritunl__pritunl/tools/builder.py:    kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/pritunl__pritunl/requirements_licma_analysis/cryptography-2.8-cp34-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/ansible-2.3.0.0/ansible-2.3.0.0/lib/ansible/parsing/vault/__init__.py:            kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/src/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/test_pbkdf2hmac.py:            PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/test_pbkdf2hmac.py:            PBKDF2HMAC(hashes.SHA1(), 20, u"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        kdf = PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, default_backend())
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/test_pbkdf2hmac.py:        PBKDF2HMAC(hashes.SHA1(), 20, b"salt", 10, pretend_backend)
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/cryptography-1.9/cryptography-1.9/tests/hazmat/primitives/utils.py:    kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/wechatpy__wechatpy/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/ansible-2.7.8/ansible-2.7.8/lib/ansible/parsing/vault/__init__.py:        kdf = PBKDF2HMAC(
+/media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):
+/media/ubuntu/DATA/repositories-python/novnc__websockify/requirements_licma_analysis/jwcrypto-0.7-py2.py3-none-any/jwcrypto/jwa.py:        kdf = PBKDF2HMAC(algorithm=hashalg, length=_inbytes(self.keysize),
+/media/ubuntu/DATA/repositories-python/novnc__websockify/requirements_licma_analysis/cryptography-3.0-cp35-abi3-manylinux1_x86_64/cryptography/hazmat/primitives/kdf/pbkdf2.py:class PBKDF2HMAC(object):

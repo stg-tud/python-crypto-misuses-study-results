@@ -1,0 +1,7 @@
+File of interest: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/core/src/apps/webauthn/fido2.py
+Duplicate: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/core/src/apps/webauthn/fido2.py
+File of interest: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/core/src/apps/misc/cipher_key_value.py
+File of interest: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-core/src/apps/wallet/cipher_key_value.py
+File of interest: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/python/tools/pwd_reader.py
+Duplicate: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/python/tools/pwd_reader.py
+File of interest: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/core/src/trezor/crypto/slip39.py

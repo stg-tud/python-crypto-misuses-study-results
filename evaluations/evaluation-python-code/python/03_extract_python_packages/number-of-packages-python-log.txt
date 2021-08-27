@@ -1,0 +1,14 @@
+2020-08-14 11:56:25.488900 Start counting...
+2020-08-14 11:56:26.512692 Finished counting
+2020-08-14 11:56:26.512711 Number of unique packages: 3420
+2020-08-14 11:56:26.512717 Number of unique packages + others(non package files): 3425
+2020-08-14 11:56:26.512722 Others(non package files): 5
+2020-08-14 11:56:26.512727 Occurring file extensions: {'.bz2', '.bak', '.gz', '.zip', '.whl'}
+2020-08-14 11:56:26.512738 Number of dirs: 14442
+2020-08-14 11:56:26.512746 Number of files: 14447
+2020-08-14 11:56:26.512750 Total number of files and dirs: 28889
+/media/ubuntu/DATA/repositories-python/deepfakes__faceswap/requirements_licma_analysis/nvidia-ml-py3-7.352.1.zip.bak
+/media/ubuntu/DATA/repositories-python/andabi__deep-voice-conversion/requirements_licma_analysis/tensorflow-plot-0.3.2.zip.bak
+/media/ubuntu/DATA/repositories-python/coala__coala/requirements_licma_analysis/coala-utils-0.7.0.zip.bak
+/media/ubuntu/DATA/repositories-python/coala__coala/requirements_licma_analysis/dependency-management-0.5.0.dev0.zip.bak
+/media/ubuntu/DATA/repositories-python/coala__coala/requirements_licma_analysis/pytest-reqs-0.2.0.zip.bak

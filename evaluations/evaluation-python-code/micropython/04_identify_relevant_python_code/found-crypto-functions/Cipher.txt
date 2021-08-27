@@ -1,0 +1,3 @@
+/media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/storage/tests/python/src/crypto.py:    cipher = Cipher(algorithm, mode=None, backend=default_backend())
+/media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/python/tools/pwd_reader.py:        cipher = Cipher(algorithms.AES(cipherkey), modes.GCM(iv, tag), backend=default_backend())
+/media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/python/tools/pwd_reader.py:    cipher = Cipher(algorithms.AES(cipherkey), modes.GCM(iv, tag), backend=default_backend())

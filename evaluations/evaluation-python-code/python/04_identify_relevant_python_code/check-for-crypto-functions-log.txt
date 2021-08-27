@@ -1,0 +1,23 @@
+ubuntu@ubuntu-vm:~/PycharmProjects/licma/evaluations/evaluation-python-code/python/04_identify_relevant_python_code$ ./check-for-crypto-functions.sh 
+Started at: Mo 3. Aug 11:22:23 CEST 2020
+/media/ubuntu/DATA/repositories-python/pydanny__cookiecutter-django/{{cookiecutter.project_slug}}/.gitignore: line 342: error parsing glob '{{ cookiecutter.project_slug }}/media/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/{{cookiecutter.app_name}}/.gitignore: line 52: error parsing glob '/{{cookiecutter.app_name}}/static/build/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/pydanny__cookiecutter-django/{{cookiecutter.project_slug}}/.gitignore: line 342: error parsing glob '{{ cookiecutter.project_slug }}/media/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/{{cookiecutter.app_name}}/.gitignore: line 52: error parsing glob '/{{cookiecutter.app_name}}/static/build/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/pydanny__cookiecutter-django/{{cookiecutter.project_slug}}/.gitignore: line 342: error parsing glob '{{ cookiecutter.project_slug }}/media/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/{{cookiecutter.app_name}}/.gitignore: line 52: error parsing glob '/{{cookiecutter.app_name}}/static/build/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/pydanny__cookiecutter-django/{{cookiecutter.project_slug}}/.gitignore: line 342: error parsing glob '{{ cookiecutter.project_slug }}/media/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/{{cookiecutter.app_name}}/.gitignore: line 52: error parsing glob '/{{cookiecutter.app_name}}/static/build/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/pydanny__cookiecutter-django/{{cookiecutter.project_slug}}/.gitignore: line 342: error parsing glob '{{ cookiecutter.project_slug }}/media/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/{{cookiecutter.app_name}}/.gitignore: line 52: error parsing glob '/{{cookiecutter.app_name}}/static/build/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/pydanny__cookiecutter-django/{{cookiecutter.project_slug}}/.gitignore: line 342: error parsing glob '{{ cookiecutter.project_slug }}/media/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/{{cookiecutter.app_name}}/.gitignore: line 52: error parsing glob '/{{cookiecutter.app_name}}/static/build/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/pydanny__cookiecutter-django/{{cookiecutter.project_slug}}/.gitignore: line 342: error parsing glob '{{ cookiecutter.project_slug }}/media/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/{{cookiecutter.app_name}}/.gitignore: line 52: error parsing glob '/{{cookiecutter.app_name}}/static/build/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/pydanny__cookiecutter-django/{{cookiecutter.project_slug}}/.gitignore: line 342: error parsing glob '{{ cookiecutter.project_slug }}/media/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/{{cookiecutter.app_name}}/.gitignore: line 52: error parsing glob '/{{cookiecutter.app_name}}/static/build/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/pydanny__cookiecutter-django/{{cookiecutter.project_slug}}/.gitignore: line 342: error parsing glob '{{ cookiecutter.project_slug }}/media/': nested alternate groups are not allowed
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/{{cookiecutter.app_name}}/.gitignore: line 52: error parsing glob '/{{cookiecutter.app_name}}/static/build/': nested alternate groups are not allowed
+Finished at: Mo 3. Aug 23:08:46 CEST 2020
+ubuntu@ubuntu-vm:~/PycharmProjects/licma/evaluations/evaluation-python-code/python/04_identify_relevant_python_code$ 
+

@@ -1,0 +1,239 @@
+Analyzing JAR: /home/ubuntu/crypto-tool-evaluation/CryptoAPI-Bench/build/libs/rigorityj-samples-1.0-SNAPSHOT.jar
+Warning: okhttp3.Request$Builder is a phantom class!
+Warning: retrofit2.Retrofit$Builder is a phantom class!
+=======================================
+***Violated Rule 5: Used export grade public Key
+***Found: [1024] in Line 14 in Method: <org.cryptoapi.bench.insecureasymmetriccrypto.InsecureAsymmetricCipherABPSCase1: void go(int)>
+***Found: [1024] in Line 34 in Method: <org.cryptoapi.bench.insecureasymmetriccrypto.InsecureAsymmetricCipherABICase1: void main(java.lang.String[])>
+=======================================
+=======================================
+***Violated Rule 1: Found broken crypto schemes
+***Found: ["DES/ECB/PKCS5Padding"] in Line 24 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase11: void main(java.lang.String[])>
+***Found: ["AES/ECB/PKCS5Padding"] in Line 23 in Method: <org.cryptoapi.bench.ecbcrypto.EcbInSymmCryptoABICase3: void main(java.lang.String[])>
+***Found: ["RC4"] in Line 20 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase3: void main(java.lang.String[])>
+***Found: ["DES/ECB/PKCS5Padding"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABPSCase1: void go(int)>
+***Found: ["RC2"] in Line 24 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14: void main(java.lang.String[])>
+***Found: ["RC4"] in Line 24 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase13: void main(java.lang.String[])>
+***Found: ["Blowfish"] in Line 20 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase2: void main(java.lang.String[])>
+***Found: ["AES/ECB/PKCS5Padding"] in Line 21 in Method: <org.cryptoapi.bench.ecbcrypto.EcbInSymmCryptoABICase2: void go2()>
+***Found: ["IDEA"] in Line 21 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase10: void go2()>
+***Found: ["AES/ECB/PKCS5Padding"] in Method: <org.cryptoapi.bench.ecbcrypto.EcbInSymmCryptoBBCase1: void go()>
+***Found: ["Blowfish"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABSCase2: void <init>()>
+***Found: ["IDEA"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABPSCase5: void go(int)>
+***Found: ["Blowfish"] in Line 23 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase12: void main(java.lang.String[])>
+***Found: ["AES/ECB/PKCS5Padding"] in Line 10 in Method: <org.cryptoapi.bench.ecbcrypto.EcbInSymmCryptoABMCCase1: void main(java.lang.String[])>
+***Found: ["IDEA"] in Line 20 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase9: void main(java.lang.String[])>
+***Found: ["IDEA"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoBBCase5: void go()>
+***Found: ["IDEA"] in Line 24 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase15: void main(java.lang.String[])>
+***Found: ["AES/ECB/PKCS5Padding"] in Method: <org.cryptoapi.bench.ecbcrypto.EcbInSymmCryptoABPSCase1: void go(int)>
+***Found: ["RC4"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoBBCase3: void go()>
+***Found: ["RC4"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABSCase3: void <init>()>
+***Found: ["RC2"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABSCase4: void <init>()>
+***Found: ["Blowfish"] in Line 21 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase6: void go2()>
+***Found: ["Blowfish"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoBBCase2: void go()>
+***Found: ["RC2"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABPSCase4: void go(int)>
+***Found: ["IDEA"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABSCase5: void <init>()>
+***Found: ["DES/ECB/PKCS5Padding"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABSCase1: void <init>()>
+***Found: ["RC2"] in Line 10 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABMCCase4: void main(java.lang.String[])>
+***Found: ["RC4"] in Line 21 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase7: void go2()>
+***Found: ["DES/ECB/PKCS5Padding"] in Line 27 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase5: void go2()>
+***Found: ["RC2"] in Line 21 in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase8: void go2()>
+***Found: ["DES/ECB/PKCS5Padding"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoBBCase1: void go()>
+***Found: ["Blowfish"] in Method: <org.cryptoapi.bench.brokencrypto.BrokenCryptoABPSCase2: void go(int)>
+=======================================
+=============================================
+***Violated Rule 13: Untrused PRNG (java.util.Random) Found in <org.cryptoapi.bench.untrustedprng.UntrustedPRNGCase1: void main(java.lang.String[])>
+=============================================
+=======================================
+***Violated Rule 12: Does not manually verify the hostname
+***Cause: should have manually verify hostname in <org.cryptoapi.bench.impropersslsocketfactory.ImproperSocketManualHostBBCase1: void main(java.lang.String[])>
+=======================================
+=======================================
+***Violated Rule 4: Uses untrusted TrustManager ***Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of org.cryptoapi.bench.dummycertvalidation.DummyCertValidationCase1
+=======================================
+=======================================
+***Violated Rule 4: Uses untrusted TrustManager ***Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of org.cryptoapi.bench.dummycertvalidation.DummyCertValidationCase2
+=======================================
+=======================================
+***Violated Rule 4: Uses untrusted TrustManager ***Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of org.cryptoapi.bench.dummycertvalidation.DummyCertValidationCase2
+=======================================
+=======================================
+***Violated Rule 4: Uses untrusted TrustManager ***Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of org.cryptoapi.bench.dummycertvalidation.DummyCertValidationCase3
+=======================================
+=======================================
+***Violated Rule 4: Uses untrusted TrustManager ***Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of org.cryptoapi.bench.dummycertvalidation.DummyCertValidationCase3
+=======================================
+=======================================
+*** Violated Rule 6: Uses untrusted HostNameVerifier
+***Cause: Fixed [1] used in org.cryptoapi.bench.dummyhostnameverifier.DummyHostNameVerifierCase1
+=======================================
+=======================================
+***Violated Rule 2: Found broken hash functions
+***Found: ["MD4"] in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABPSCase3: void main(java.lang.String[])>
+***Found: ["MD2"] in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABPSCase4: void main(java.lang.String[])>
+***Found: ["MD5"] in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABSCase2: void <init>()>
+***Found: ["MD4"] in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABSCase3: void <init>()>
+***Found: ["MD2"] in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABSCase4: void <init>()>
+***Found: ["MD5"] in Line 9 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABICase2: void main(java.lang.String[])>
+***Found: ["SHA1"] in Line 18 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABICase5: void go2()>
+***Found: ["MD2"] in Line 9 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABMCCase4: void main(java.lang.String[])>
+***Found: ["MD5"] in Line 9 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABMCCase2: void main(java.lang.String[])>
+***Found: ["SHA1"] in Method: <org.cryptoapi.bench.brokenhash.BrokenHashBBCase1: void main(java.lang.String[])>
+***Found: ["SHA1"] in Line 9 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABMCCase1: void main(java.lang.String[])>
+***Found: ["MD4"] in Line 9 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABMCCase3: void main(java.lang.String[])>
+***Found: ["MD4"] in Line 18 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABICase7: void go2()>
+***Found: ["MD2"] in Line 9 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABICase4: void main(java.lang.String[])>
+***Found: ["SHA1"] in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABSCase1: void <init>()>
+***Found: ["MD4"] in Line 9 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABICase11: void main(java.lang.String[])>
+***Found: ["MD5"] in Line 18 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABICase6: void go2()>
+***Found: ["SHA1"] in Line 9 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABICase1: void main(java.lang.String[])>
+***Found: ["MD2"] in Line 18 in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABICase8: void go2()>
+***Found: ["MD5"] in Method: <org.cryptoapi.bench.brokenhash.BrokenHashABPSCase2: void main(java.lang.String[])>
+=======================================
+=======================================
+***Violated Rule 3a: Used constant keys in code
+***Found: [""] in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABSCase1: void <init>()>
+***Found: ["bfix"] in Line 17 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABHCase2: void main(java.lang.String[])>
+***Found: ["cfix"] in Line 18 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABHCase2: void main(java.lang.String[])>
+***Found: [0, 115] in Line 16 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordBBCase2: void key()>
+***Found: ["dfix"] in Line 19 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABHCase2: void main(java.lang.String[])>
+***Found: [1] in Line 16 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordBBCase2: void key()>
+***Found: [0] in Line 918 in Method: <java.lang.String: byte[] getBytes(java.lang.String)>
+=======================================
+=======================================
+***Violated Rule 3: Used constant keys in code
+***Found: ["saagar"] in Line 16 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordBBCase1: void key()>
+***Found: ["saagar"] in Line 17 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABPSCase1: void key(int)>
+***Found: ["null"] in Line 2994 in Method: <java.lang.String: java.lang.String valueOf(java.lang.Object)>
+***Found: ["afix"] in Line 16 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABHCase2: void main(java.lang.String[])>
+***Found: ["sagar"] in Line 13 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABICase1: void main(java.lang.String[])>
+***Found: ["sagar"] in Line 10 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABSCase1: void <init>()>
+=======================================
+=======================================
+***Violated Rule 10a: Found constant IV in code
+***Found: [1] in Line 17 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABICase2: void go()>
+***Found: ["pqrst"] in Line 25 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABHCase2: void go()>
+***Found: ["klmno"] in Line 24 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABHCase2: void go()>
+***Found: ["fghij"] in Line 23 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABHCase2: void go()>
+***Found: [16] in Line 45 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorCorrected: void go()>
+***Found: [10] in Line 175 in Method: <java.lang.Byte: byte parseByte(java.lang.String)>
+***Found: [0] in Line 17 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABICase2: void go()>
+***Found: [16] in Line 20 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABPSCase1: void go(int)>
+***Found: [0] in Line 958 in Method: <java.lang.String: byte[] getBytes()>
+***Found: [0] in Line 918 in Method: <java.lang.String: byte[] getBytes(java.lang.String)>
+=======================================
+=======================================
+***Violated Rule 10: Found constant IV in code
+***Found: ["abcde"] in Line 25 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABICase3: void main(java.lang.String[])>
+***Found: ["abcde"] in Line 17 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorBBCase1: void go()>
+***Found: ["abcde"] in Line 11 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABMCCase1: void main(java.lang.String[])>
+***Found: ["abcde"] in Line 17 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABPSCase1: void go(int)>
+***Found: ["abcde"] in Line 22 in Method: <org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABHCase2: void go()>
+=======================================
+=======================================
+***Violated Rule 9a: Found constant salts in code
+***Found: [32] in Line 14 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsCorrected: void key2()>
+***Found: ["ccc"] in Line 17 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABHCase1: void key2()>
+***Found: [10] in Line 175 in Method: <java.lang.Byte: byte parseByte(java.lang.String)>
+***Found: [0] in Line 23 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABHCase1: void key2()>
+***Found: [0] in Line 8 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABSCase1: void <init>()>
+***Found: ["bbb"] in Line 16 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABHCase1: void key2()>
+***Found: [16] in Line 32 in Method: <org.cryptoapi.bench.predictablepbepassword.CryptoPredictablePBE: void method1(java.lang.String)>
+***Found: [1] in Line 8 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABSCase1: void <init>()>
+***Found: [32] in Line 20 in Method: <org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase3: void method1(int,java.security.SecureRandom,javax.crypto.spec.PBEParameterSpec)>
+***Found: [16] in Line 18 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordCorrected: void key()>
+***Found: [2] in Line 23 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABHCase1: void key2()>
+***Found: [1] in Line 9 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABICase1: void main(java.lang.String[])>
+***Found: [1] in Line 23 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABHCase1: void key2()>
+***Found: [0] in Line 9 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABICase1: void main(java.lang.String[])>
+***Found: [0] in Line 27 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABICase2: void key2(int)>
+***Found: ["ddd"] in Line 18 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABHCase1: void key2()>
+***Found: [32] in Line 24 in Method: <org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABHCase1: void key2()>
+***Found: [16] in Line 17 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordBBCase1: void key()>
+***Found: [16] in Line 22 in Method: <org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABPSCase1: void key(int)>
+=======================================
+=======================================
+***Violated Rule 9: Found constant salts in code
+***Found: [-94] in Line 9 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABICase1: void main(java.lang.String[])>
+***Found: [-94] in Line 8 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABSCase1: void <init>()>
+***Found: ["aaa"] in Line 15 in Method: <org.cryptoapi.bench.staticsalts.StaticSaltsABHCase1: void key2()>
+=======================================
+=======================================
+***Violated Rule 8: Used < 1000 iteration for PBE
+***Found: [20] in Method: <org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABSCase1: void <init>()>
+***Found: [20] in Line 6 in Method: <org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABMCCase1: void main()>
+***Found: [20] in Line 17 in Method: <org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABHCase1: void key2()>
+***Found: [20] in Method: <org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEBBCase1: void key2()>
+***Found: [5] in Line 12 in Method: <org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABPSCase1: void main(java.lang.String[])>
+=======================================
+=======================================
+***Violated Rule 11a: Found predictable seeds in code
+***Found: [10] in Line 175 in Method: <java.lang.Byte: byte parseByte(java.lang.String)>
+***Found: [0] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsBBCase2: void main(java.lang.String[])>
+***Found: ["ddd"] in Line 18 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase4: void main(java.lang.String[])>
+***Found: [0] in Line 16 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABICase6: void method2(byte)>
+***Found: [2] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABICase1: void main(java.lang.String[])>
+***Found: [1] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABICase1: void main(java.lang.String[])>
+***Found: [0] in Line 16 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase2: void main(java.lang.String[])>
+***Found: [0] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase2: void main(java.lang.String[])>
+***Found: [1] in Line 30 in Method: <org.cryptoapi.bench.predictableseeds.CryptoPredictableSeed2: void method1(byte)>
+***Found: [2] in Line 9 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase1: void main(java.lang.String[])>
+***Found: [0] in Line 30 in Method: <org.cryptoapi.bench.predictableseeds.CryptoPredictableSeed2: void method1(byte)>
+***Found: [1] in Line 9 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase1: void main(java.lang.String[])>
+***Found: [1] in Line 22 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase4: void main(java.lang.String[])>
+***Found: [0] in Line 9 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase1: void main(java.lang.String[])>
+***Found: [1] in Line 16 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase2: void main(java.lang.String[])>
+***Found: ["ccc"] in Line 12 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase2: void main(java.lang.String[])>
+***Found: [32] in Line 424 in Method: <java.util.Random: long nextLong()>
+***Found: [1] in Line 24 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABICase4: void go()>
+***Found: ["bbb"] in Line 16 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase4: void main(java.lang.String[])>
+***Found: [0] in Line 22 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase4: void main(java.lang.String[])>
+***Found: [0] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABICase1: void main(java.lang.String[])>
+***Found: [32] in Line 424 in Method: <java.util.Random: long nextLong()>
+***Found: [0] in Line 24 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABICase4: void go()>
+***Found: ["bbb"] in Line 11 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase2: void main(java.lang.String[])>
+***Found: [1] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase2: void main(java.lang.String[])>
+***Found: [32] in Line 424 in Method: <java.util.Random: long nextLong()>
+***Found: ["ccc"] in Line 17 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase4: void main(java.lang.String[])>
+***Found: [2] in Line 16 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase2: void main(java.lang.String[])>
+***Found: ["ddd"] in Line 13 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase2: void main(java.lang.String[])>
+***Found: [2] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase2: void main(java.lang.String[])>
+=======================================
+=======================================
+***Violated Rule 11: Found predictable seeds in code
+***Found: [100] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABICase1: void main(java.lang.String[])>
+***Found: [100] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase2: void main(java.lang.String[])>
+***Found: [100] in Line 9 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase1: void main(java.lang.String[])>
+***Found: ["aaa"] in Line 15 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase4: void main(java.lang.String[])>
+***Found: [-56] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase2: void main(java.lang.String[])>
+***Found: [100] in Line 14 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABSCase2: void <init>()>
+***Found: [-56] in Line 9 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABPSCase1: void main(java.lang.String[])>
+***Found: ["aaa"] in Line 10 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABHCase2: void main(java.lang.String[])>
+***Found: [-56] in Line 8 in Method: <org.cryptoapi.bench.predictableseeds.PredictableSeedsABICase1: void main(java.lang.String[])>
+=======================================
+=======================================
+***Violated Rule 14a: Used Predictable KeyStore Password
+***Found: ["bfix"] in Line 23 in Method: <org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordABHCase2: void go()>
+***Found: ["cfix"] in Line 24 in Method: <org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordABHCase2: void go()>
+***Found: ["dfix"] in Line 25 in Method: <org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordABHCase2: void go()>
+***Found: [0] in Line 918 in Method: <java.lang.String: byte[] getBytes(java.lang.String)>
+=======================================
+=======================================
+***Violated Rule 14: Used Predictable KeyStore Password
+***Found: ["null"] in Line 2994 in Method: <java.lang.String: java.lang.String valueOf(java.lang.Object)>
+***Found: ["afix"] in Line 22 in Method: <org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordABHCase2: void go()>
+***Found: ["changeit"] in Line 23 in Method: <org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordABPSCase1: void go(int)>
+***Found: ["changeit"] in Line 14 in Method: <org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordABICase3: void main(java.lang.String[])>
+***Found: ["changeit"] in Line 22 in Method: <org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordBBCase1: void go()>
+***Found: ["changeit"] in Line 13 in Method: <org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordABSCase1: void <init>()>
+***Found: ["changeit"] in Line 23 in Method: <org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordABICase2: void go2()>
+=======================================
+=======================================
+***Violated Rule 7: Used HTTP Protocol
+***Found: ["http://www.google.com"] in Line 16 in Method: <org.cryptoapi.bench.http.HttpProtocolABICase2: void go2()>
+***Found: ["http://gmail.com"] in Line 9 in Method: <org.cryptoapi.bench.http.HttpProtocolABSCase1: void <init>()>
+***Found: ["http://www.facebook.com"] in Line 7 in Method: <org.cryptoapi.bench.http.HttpProtocolABPSCase1: void main(java.lang.String[])>
+***Found: ["http://www.google.com"] in Line 9 in Method: <org.cryptoapi.bench.http.HttpProtocolABICase1: void main(java.lang.String[])>
+***Found: ["http://www.google.com"] in Line 8 in Method: <org.cryptoapi.bench.http.HttpProtocolABMCCase1: void main(java.lang.String[])>
+***Found: ["http://www.facebook.com"] in Line 7 in Method: <org.cryptoapi.bench.http.HttpProtocolBBCase1: void main(java.lang.String[])>
+=======================================

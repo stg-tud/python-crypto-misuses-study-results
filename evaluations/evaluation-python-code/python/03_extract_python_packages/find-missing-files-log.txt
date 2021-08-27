@@ -1,0 +1,8 @@
+Results for: /media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis
+missing files: 4
+/media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/package-duplicate
+/media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/package-not-unzipped
+/media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/package-duplicate
+/media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/package-not-unzipped-targz
+duplicates: 1
+/media/ubuntu/DATA/repositories-python/0__TEST__MISSING__AND__DUPLICATE/requirements_licma_analysis/package-duplicate

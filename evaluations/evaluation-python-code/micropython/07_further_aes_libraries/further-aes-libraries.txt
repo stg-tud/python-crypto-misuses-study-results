@@ -1,0 +1,36 @@
+trezor__trezor-core/src/apps/wallet/cipher_key_value.py
+41:    ctx = aes(aes.CBC, key, iv)
+
+pfalcon__pycopy/extmod/moducryptolib.c
+100:static inline struct ctr_params *ctr_params_from_aes(mp_obj_aes_t *o) {
+256:        ctr_params_from_aes(o)->offset = 0;
+325:                ctr_params_from_aes(self));
+
+trezor__trezor-firmware/core/src/apps/webauthn/fido2.py
+1802:    salt = aes(aes.CBC, shared_secret).decrypt(salt_enc)
+1816:    return aes(aes.CBC, shared_secret).encrypt(output)
+
+trezor__trezor-firmware/core/src/apps/misc/cipher_key_value.py
+44:    ctx = aes(aes.CBC, key, iv)
+
+loboris__MicroPython_K210_LoBo/micropython/extmod/moducryptolib.c
+100:static inline struct ctr_params *ctr_params_from_aes(mp_obj_aes_t *o) {
+256:        ctr_params_from_aes(o)->offset = 0;
+325:                ctr_params_from_aes(self));
+
+loboris__MicroPython_K210_LoBo/k210-freertos/ktool.py
+271:                self._aes = AES(key)
+
+loboris__MicroPython_K210_LoBo/k210-freertos/kflash.py
+271:                self._aes = AES(key)
+
+loboris__MicroPython_K210_LoBo/firmware/kflash.py
+271:                self._aes = AES(key)
+
+loboris__MicroPython_K210_LoBo/firmware/ktool.py
+271:                self._aes = AES(key)
+
+trezor__trezor-firmware/python/tools/pwd_reader.py
+51:        cipher = Cipher(algorithms.AES(cipherkey), modes.GCM(iv, tag), backend=default_backend())
+70:    cipher = Cipher(algorithms.AES(cipherkey), modes.GCM(iv, tag), backend=default_backend())
+

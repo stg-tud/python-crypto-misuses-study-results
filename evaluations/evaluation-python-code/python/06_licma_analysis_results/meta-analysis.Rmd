@@ -1,0 +1,119 @@
+---
+title: "LICMA Meta-analysis"
+output: github_document
+---
+
+# LICMA Meta-analysis
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+if(!require('pacman')) irnstall.packages("pacman")
+pacman::p_load(dplyr, readr, stringr, ggplot2, here, viridis)
+```
+
+## Misuses per Rule for LICMA
+
+```{r readMisuses, include = TRUE}
+# TODO parametrize
+misuses <- readr::read_csv2(here("evaluations", "evaluation-python-code", "python", "06_licma_analysis_results", "FINAL_licma-result-2020-08-06_152020507612.csv"))
+# Add the information about the project into the data frame
+misuses <- misuses  %>%
+  mutate(File = stringr::str_replace(File, "/media/ubuntu/DATA/repositories-python/", "")) %>%
+  mutate(Project = stringr::str_extract(File, "(([^//]*))"))
+colnames(misuses)[colnames(misuses) == "Hit-Type"] <- "Hit"
+
+# Split Rule into RuleID and Lib
+misuses <- misuses %>%
+  tidyr::separate(Rule, c(NA, NA, "RuleID", "Lib"))
+
+licmacritical <- misuses %>%
+  filter(Hit == "critical") %>%
+  group_by(RuleID) %>%
+  summarize(n = n()) %>%
+  mutate(perc = n / 85 * 100)
+
+licmaapsscritical <- misuses %>%
+  filter(Hit == "critical") %>%
+  group_by(RuleID, Project) %>%
+  summarize(helper = n()) %>%
+  group_by(RuleID) %>%
+  summarize(n = n()) %>%
+  mutate(perc = n / 155 * 100)
+```
+
+
+
+`r knitr::kable(licmacritical, caption = "Distribution of Misuses to Rules for Critical Misuses") `
+`r knitr::kable(licmaapsscritical, caption = "Distribution of Projects with at least one Misuse of one Rule for Critical Misuses") `
+
+## Misuses per Rule for CryptoLint
+
+The Evaluation by Egele et al. focuses on the number of apps which violates one rule rather than the total number of observed misuses per rule. 
+
+```{r misusescryptolint, include = TRUE}
+RuleID <- c("1", "2", "3", "4", "5", "No")
+
+n <- c(7656, 1932, 3644, 1574, 1636, 1421)
+egele <- data.frame(RuleID, n)
+numberAnalyzed <- 11748
+egele <- egele %>%
+  mutate(perc = n / numberAnalyzed * 100)
+```
+
+`r knitr::kable(egele, caption = "Distribution of Projects with at least one Misuse of the Respective Rule")`
+
+## Misuses per Rule for CryptoRex
+
+The evaluation by Zheng et al. may missed to discuss how many of the firmware images do not use crypto. 
+While their describe filtering for crypto usages, their text read as that the **521** firmware images are before the filter step.
+Thus, the percentages are for misuses may be upon the unfiltered data set. 
+
+```{r misusescryptorex, include = TRUE}
+# Numbers from Table 4 Zhang et al. CryptoRex 2019. 
+n <- c(107, 24, 59, 56, 23, 395) 
+zhang <- data.frame(RuleID, n)
+numberAnalyzed <- 521
+zhang <- zhang %>%
+  mutate(perc = n / numberAnalyzed * 100)
+```
+
+`r knitr::kable(zhang, caption = "Distribution of Firmware images with at least one misuse of the respective rule")`
+
+## Graphs
+
+```{r metaanalysis, include = TRUE}
+# Add no row
+n <- c(5, 6, 2, 14, 13, 137) # 18 distinct projects are affected by critical misuse.
+numberAnalyzed <- 155
+licma <- data.frame(RuleID, n)
+licma <- licma %>% 
+  mutate(perc = n / numberAnalyzed * 100)
+licma$study = "LICMA_critical"
+#licmaapsscritical$study = "LICMA_critical"
+
+egele$study = "CryptoLint"
+zhang$study = "CryptoRex"
+#meta <- dplyr::bind_rows(licmaapsscritical, egele, zhang)  %>%
+meta <- dplyr::bind_rows(licma, egele, zhang)  %>%
+  mutate(RuleID = factor(RuleID, levels=c("No", "5", "4", "3", "2", "1")))
+
+ggplot(meta, aes(x=factor(RuleID), y=perc, fill = study)) +
+  geom_bar(position="dodge", stat="identity")  +
+  geom_text(aes(label = format(round(perc, 2))),  position=position_dodge(width=0.9), vjust=0.5, hjust=-0.15, size = 5) + 
+#  geom_text(data = meta %>% filter(perc > 65), aes(label = format(round(perc, 2))),  position=position_dodge(width=0.9), vjust=0.25, hjust=4) + 
+  scale_x_discrete(labels=c("1" = expression("\u00A71"), "2" = expression("\u00A72"), "3" = expression("\u00A73"), "4" = expression("\u00A74"), "5" = expression("\u00A75"), "No" = "No")) +
+  scale_fill_viridis(discrete = TRUE, option = "D", begin = 0.5, end = 1, drop = FALSE , labels = c("Java: CryptoLint", "C: CryptoRex", "Python: LICMA")) +
+  ylab("Percentage of applications with a misuse") +
+  labs(fill = "Study") +
+  xlab("Rule") +
+  ylim(0, 94) + 
+  coord_flip() + 
+  theme(
+    axis.title.y = element_blank(),
+    axis.title.x = element_text(size = 18, face = "italic"),
+    text=element_text(size=18),
+    legend.position = c(1,0.5), legend.justification = c(1,0.5)
+   )  
+ggplot2::ggsave(here("evaluations", "evaluation-python-code", "python", "06_licma_analysis_results","./meta.png"), width=200, height = 100, units = c("mm"), dpi = "print")
+```
+

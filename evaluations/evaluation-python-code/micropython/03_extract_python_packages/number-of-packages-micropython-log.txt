@@ -1,0 +1,9 @@
+2020-08-14 11:56:10.338444 Start counting...
+2020-08-14 11:56:10.352717 Finished counting
+2020-08-14 11:56:10.352747 Number of unique packages: 112
+2020-08-14 11:56:10.352758 Number of unique packages + others(non package files): 112
+2020-08-14 11:56:10.352766 Others(non package files): 0
+2020-08-14 11:56:10.352774 Occurring file extensions: {'.whl', '.gz'}
+2020-08-14 11:56:10.352790 Number of dirs: 113
+2020-08-14 11:56:10.352798 Number of files: 113
+2020-08-14 11:56:10.352806 Total number of files and dirs: 226

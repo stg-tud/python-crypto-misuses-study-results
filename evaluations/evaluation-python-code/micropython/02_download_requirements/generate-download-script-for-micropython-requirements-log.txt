@@ -1,0 +1,4 @@
+1 | /media/ubuntu/DATA/repositories-micropython/mu-editor__mu | /media/ubuntu/DATA/repositories-micropython/mu-editor__mu/requirements.txt
+2 | /media/ubuntu/DATA/repositories-micropython/sipeed__MaixPy | /media/ubuntu/DATA/repositories-micropython/sipeed__MaixPy/requirements.txt
+3 | /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware | /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/python/requirements.txt
+4 | /media/ubuntu/DATA/repositories-micropython/BradenM__micropy-cli | /media/ubuntu/DATA/repositories-micropython/BradenM__micropy-cli/docs/requirements.txt

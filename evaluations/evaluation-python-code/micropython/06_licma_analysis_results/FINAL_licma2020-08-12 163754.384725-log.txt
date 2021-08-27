@@ -1,0 +1,14 @@
+08-12 16:37 | INFO | input: /home/ubuntu/PycharmProjects/licma/evaluations/evaluation-python-code/micropython/04_identify_relevant_python_code/files_of_interest.txt
+08-12 16:37 | INFO | output: /home/ubuntu/PycharmProjects/licma/evaluations/evaluation-python-code/micropython/06_licma_analysis_results/
+08-12 16:37 | INFO | output log: /home/ubuntu/PycharmProjects/licma/evaluations/evaluation-python-code/micropython/06_licma_analysis_results/
+08-12 16:37 | INFO | log level: 20
+08-12 16:37 | INFO | source file type: py
+08-12 16:37 | INFO | rule: None
+08-12 16:37 | INFO | library: *
+08-12 16:37 | INFO | Analysis started
+08-12 16:37 | INFO | processing: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/core/src/apps/webauthn/fido2.py
+08-12 16:38 | INFO | processing: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/core/src/apps/misc/cipher_key_value.py
+08-12 16:38 | INFO | processing: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-core/src/apps/wallet/cipher_key_value.py
+08-12 16:38 | INFO | processing: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/python/tools/pwd_reader.py
+08-12 16:38 | INFO | processing: /media/ubuntu/DATA/repositories-micropython/trezor__trezor-firmware/core/src/trezor/crypto/slip39.py
+08-12 16:38 | INFO | Analysis finished

@@ -1,0 +1,196 @@
+/media/ubuntu/DATA/repositories-python/django__django/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/django__django/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/django__django/tests/utils_tests/test_crypto.py:            result = pbkdf2(**vector['args'])
+/media/ubuntu/DATA/repositories-python/django__django/tests/utils_tests/test_crypto.py:            result = pbkdf2(**vector['args'])
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_crypto_digest.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            result = pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/utils/pbkdf2.py:def pbkdf2(secret, salt, rounds, keylen=None, prf="hmac-sha1"):
+/media/ubuntu/DATA/repositories-python/python__cpython/Lib/test/test_hashlib.py:                out = pbkdf2(digest_name, password, salt, rounds, dklen)
+/media/ubuntu/DATA/repositories-python/python__cpython/Lib/test/test_hashlib.py:                out = pbkdf2(digest_name, memoryview(password),
+/media/ubuntu/DATA/repositories-python/python__cpython/Lib/test/test_hashlib.py:                out = pbkdf2(digest_name, bytearray(password),
+/media/ubuntu/DATA/repositories-python/python__cpython/Lib/test/test_hashlib.py:                    out = pbkdf2(digest_name, password, salt, rounds)
+/media/ubuntu/DATA/repositories-python/python__cpython/Lib/test/test_hashlib.py:            pbkdf2('unknown', b'pass', b'salt', 1)
+/media/ubuntu/DATA/repositories-python/python__cpython/Lib/test/test_hashlib.py:        out = pbkdf2(hash_name='sha1', password=b'password', salt=b'salt',
+/media/ubuntu/DATA/repositories-python/localstack__localstack/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_crypto_digest.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/localstack__localstack/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/localstack__localstack/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            result = pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/localstack__localstack/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/localstack__localstack/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/localstack__localstack/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/utils/pbkdf2.py:def pbkdf2(secret, salt, rounds, keylen=None, prf="hmac-sha1"):
+/media/ubuntu/DATA/repositories-python/encode__django-rest-framework/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/encode__django-rest-framework/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/celery__celery/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/celery__celery/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/Miserlou__Zappa/requirements_licma_analysis/Django-3.0.3-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/Miserlou__Zappa/requirements_licma_analysis/Django-3.0.3-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_crypto_digest.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            result = pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/utils/pbkdf2.py:def pbkdf2(secret, salt, rounds, keylen=None, prf="hmac-sha1"):
+/media/ubuntu/DATA/repositories-python/wagtail__wagtail/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/wagtail__wagtail/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/mirumee__saleor/requirements_licma_analysis/Django-3.0.5-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/mirumee__saleor/requirements_licma_analysis/Django-3.0.5-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/apprenticeharper__DeDRM_tools/DeDRM_plugin/alfcrypto.py:    def pbkdf2(self, passwd, salt, iter, keylen):
+/media/ubuntu/DATA/repositories-python/apprenticeharper__DeDRM_tools/DeDRM_plugin/kindlekey.py:            def pbkdf2(self, passwd, salt, iter, keylen):
+/media/ubuntu/DATA/repositories-python/apprenticeharper__DeDRM_tools/Other_Tools/DRM_Key_Scripts/Kindle_for_Mac_and_PC/kindlekey.pyw:            def pbkdf2(self, passwd, salt, iter, keylen):
+/media/ubuntu/DATA/repositories-python/scrapinghub__portia/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/scrapinghub__portia/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/scrapinghub__portia/requirements_licma_analysis/autobahn-18.3.1-py2.py3-none-any/autobahn/wamp/auth.py:def pbkdf2(data, salt, iterations=1000, keylen=32, hashfunc=None):
+/media/ubuntu/DATA/repositories-python/scrapinghub__portia/requirements_licma_analysis/autobahn-18.3.1-py2.py3-none-any/autobahn/wamp/auth.py:    key = pbkdf2(secret, salt, iterations, keylen)
+/media/ubuntu/DATA/repositories-python/clips__pattern/pattern/server/__init__.py:def pbkdf2(s, salt, iterations=10000, n=32, f="sha256"):
+/media/ubuntu/DATA/repositories-python/clips__pattern/pattern/server/__init__.py:    return "pbkdf2:sha256:10000:%s:%s" % (x, pbkdf2(s[:1024], x))
+/media/ubuntu/DATA/repositories-python/openai__universe/requirements_licma_analysis/autobahn-20.7.1-py2.py3-none-any/autobahn/wamp/auth.py:    return pbkdf2(password, salt, iterations, keylen=32)
+/media/ubuntu/DATA/repositories-python/openai__universe/requirements_licma_analysis/autobahn-20.7.1-py2.py3-none-any/autobahn/wamp/auth.py:def pbkdf2(data, salt, iterations=1000, keylen=32, hashfunc=None):
+/media/ubuntu/DATA/repositories-python/openai__universe/requirements_licma_analysis/autobahn-20.7.1-py2.py3-none-any/autobahn/wamp/auth.py:    key = pbkdf2(secret, salt, iterations, keylen)
+/media/ubuntu/DATA/repositories-python/netbox-community__netbox/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/netbox-community__netbox/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/deis__deis/requirements_licma_analysis/Django-1.6.11-py2.py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/deis__deis/requirements_licma_analysis/Django-1.6.11-py2.py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/ajenti__ajenti/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_crypto_digest.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/ajenti__ajenti/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/ajenti__ajenti/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            result = pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/ajenti__ajenti/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/ajenti__ajenti/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/ajenti__ajenti/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/utils/pbkdf2.py:def pbkdf2(secret, salt, rounds, keylen=None, prf="hmac-sha1"):
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/Django-3.0.6-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/Django-3.0.6-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/oscrypto-1.1.0-py2.py3-none-any/oscrypto/_asymmetric.py:        enc_key = pbkdf2(
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/oscrypto-1.1.0-py2.py3-none-any/oscrypto/_pkcs5.py:def pbkdf2(hash_algorithm, password, salt, iterations, key_length):
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/oscrypto-1.1.0-py2.py3-none-any/oscrypto/asymmetric.py:        key = pbkdf2(kdf_hmac, passphrase_bytes, kdf_salt, iterations, key_length)
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/oscrypto-1.1.0-py2.py3-none-any/oscrypto/kdf.py:    Runs pbkdf2() twice to determine the approximate number of iterations to
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/oscrypto-1.1.0-py2.py3-none-any/oscrypto/kdf.py:        pbkdf2(hash_algorithm, password, salt, iterations, key_length)
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/oscrypto-1.1.0-py2.py3-none-any/oscrypto/_mac/util.py:def pbkdf2(hash_algorithm, password, salt, iterations, key_length):
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/oscrypto-1.1.0-py2.py3-none-any/oscrypto/_openssl/util.py:    def pbkdf2(hash_algorithm, password, salt, iterations, key_length):
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/oscrypto-1.1.0-py2.py3-none-any/oscrypto/_win/util.py:    def pbkdf2(hash_algorithm, password, salt, iterations, key_length):
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_crypto_digest.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            result = pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/utils/pbkdf2.py:def pbkdf2(secret, salt, rounds, keylen=None, prf="hmac-sha1"):
+/media/ubuntu/DATA/repositories-python/readthedocs__readthedocs.org/requirements_licma_analysis/Django-2.2.12-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/readthedocs__readthedocs.org/requirements_licma_analysis/Django-2.2.12-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/samuelclay__NewsBlur/node/node_modules/sshpk/lib/utils.js:function pbkdf2(hashAlg, salt, iterations, size, passphrase) {
+/media/ubuntu/DATA/repositories-python/AlessandroZ__LaZagne/Linux/lazagne/config/crypto/pbkdf2.py:def pbkdf2(password, salt, itercount, keylen):
+/media/ubuntu/DATA/repositories-python/AlessandroZ__LaZagne/Linux/lazagne/softwares/mails/clawsmail.py:        masterkey = pbkdf2(self.passcrypt_key, self.salt, int(rounds), self.KEYLEN)
+/media/ubuntu/DATA/repositories-python/AlessandroZ__LaZagne/Mac/lazagne/softwares/system/chainbreaker_module/chainbreaker.py:        masterkey = pbkdf2(pw, str(bytearray(dbblob.salt)), 1000, KEYLEN)
+/media/ubuntu/DATA/repositories-python/AlessandroZ__LaZagne/Mac/lazagne/softwares/system/chainbreaker_module/pbkdf2.py:def pbkdf2(password, salt, itercount, keylen, hashfn=sha):
+/media/ubuntu/DATA/repositories-python/AlessandroZ__LaZagne/Windows/lazagne/config/DPAPI/crypto.py:def pbkdf2(passphrase, salt, keylen, iterations, digest='sha1'):
+/media/ubuntu/DATA/repositories-python/AlessandroZ__LaZagne/Windows/lazagne/config/DPAPI/crypto.py:    derived = pbkdf2(encKey, iv, cipherAlgo.keyLength + cipherAlgo.ivLength, rounds, hname)
+/media/ubuntu/DATA/repositories-python/taigaio__taiga-back/requirements_licma_analysis/Django-1.11.29-py2.py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/taigaio__taiga-back/requirements_licma_analysis/Django-1.11.29-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/taigaio__taiga-back/requirements_licma_analysis/Django-1.11.29-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/mzucker__noteshrink/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/mzucker__noteshrink/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/wbond__package_control/package_control/deps/oscrypto/_asymmetric.py:        enc_key = pbkdf2(
+/media/ubuntu/DATA/repositories-python/wbond__package_control/package_control/deps/oscrypto/_mac/util.py:def pbkdf2(hash_algorithm, password, salt, iterations, key_length):
+/media/ubuntu/DATA/repositories-python/wbond__package_control/package_control/deps/oscrypto/_openssl/util.py:    def pbkdf2(hash_algorithm, password, salt, iterations, key_length):
+/media/ubuntu/DATA/repositories-python/wbond__package_control/package_control/deps/oscrypto/_pkcs5.py:def pbkdf2(hash_algorithm, password, salt, iterations, key_length):
+/media/ubuntu/DATA/repositories-python/wbond__package_control/package_control/deps/oscrypto/_win/util.py:    def pbkdf2(hash_algorithm, password, salt, iterations, key_length):
+/media/ubuntu/DATA/repositories-python/wbond__package_control/package_control/deps/oscrypto/asymmetric.py:        key = pbkdf2(kdf_hmac, passphrase_bytes, kdf_salt, iterations, key_length)
+/media/ubuntu/DATA/repositories-python/wbond__package_control/package_control/deps/oscrypto/kdf.py:    Runs pbkdf2() twice to determine the approximate number of iterations to
+/media/ubuntu/DATA/repositories-python/wbond__package_control/package_control/deps/oscrypto/kdf.py:        pbkdf2(hash_algorithm, password, salt, iterations, key_length)
+/media/ubuntu/DATA/repositories-python/sshwsfc__xadmin/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/sshwsfc__xadmin/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/SpiderClub__weibospider/requirements_licma_analysis/Django-1.11.6-py2.py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/SpiderClub__weibospider/requirements_licma_analysis/Django-1.11.6-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/SpiderClub__weibospider/requirements_licma_analysis/Django-1.11.6-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/django-oscar__django-oscar/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/django-oscar__django-oscar/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/flask-admin__flask-admin/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_crypto_digest.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/flask-admin__flask-admin/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/flask-admin__flask-admin/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            result = pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/flask-admin__flask-admin/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/flask-admin__flask-admin/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/flask-admin__flask-admin/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/utils/pbkdf2.py:def pbkdf2(secret, salt, rounds, keylen=None, prf="hmac-sha1"):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/Django-1.11.29/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/Django-1.11.29/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/Django-1.11.29/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/Django-1.11.29/tests/utils_tests/test_crypto.py:            result = pbkdf2(**vector['args'])
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/Django-1.11.29/tests/utils_tests/test_crypto.py:            result = pbkdf2(**vector['args'])
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/Django-1.11.28-py2.py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/Django-1.11.28-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/Django-1.11.28-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/Django-1.10-py2.py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/Django-1.10-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/Django-1.10-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/posativ__isso/isso/utils/hash.py:        def pbkdf2(val, salt, iterations, dklen, func):
+/media/ubuntu/DATA/repositories-python/posativ__isso/isso/utils/hash.py:        return pbkdf2(val, self.salt, self.iterations, self.dklen, self.func)
+/media/ubuntu/DATA/repositories-python/MVIG-SJTU__AlphaPose/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/MVIG-SJTU__AlphaPose/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/django-crispy-forms__django-crispy-forms/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/django-crispy-forms__django-crispy-forms/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__CrackMapExec/requirements_licma_analysis/pypykatz-0.3.12-py3-none-any/pypykatz/crypto/unified/pbkdf2.py:def pbkdf2(password, salt, iters, keylen, digestmod = hashlib.sha1):
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__CrackMapExec/requirements_licma_analysis/pypykatz-0.3.12-py3-none-any/pypykatz/utils/crypto/winhash.py:	msdcc_v2 = pbkdf2(msdcc_hash, username_bytes, iterations, 16)
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__CrackMapExec/requirements_licma_analysis/minikerberos-0.2.3-py3-none-any/minikerberos/crypto/PBKDF2/pbkdf2.py:def pbkdf2(password, salt, iters, keylen, digestmod = hashlib.sha1):
+/media/ubuntu/DATA/repositories-python/offu__WeRoBot/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/offu__WeRoBot/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/brython-dev__brython/www/src/Lib/test/test_hashlib.py:                out = pbkdf2(digest_name, password, salt, rounds, dklen)
+/media/ubuntu/DATA/repositories-python/brython-dev__brython/www/src/Lib/test/test_hashlib.py:                out = pbkdf2(digest_name, memoryview(password),
+/media/ubuntu/DATA/repositories-python/brython-dev__brython/www/src/Lib/test/test_hashlib.py:                out = pbkdf2(digest_name, bytearray(password),
+/media/ubuntu/DATA/repositories-python/brython-dev__brython/www/src/Lib/test/test_hashlib.py:                    out = pbkdf2(digest_name, password, salt, rounds)
+/media/ubuntu/DATA/repositories-python/brython-dev__brython/www/src/Lib/test/test_hashlib.py:            pbkdf2('unknown', b'pass', b'salt', 1)
+/media/ubuntu/DATA/repositories-python/brython-dev__brython/www/src/Lib/test/test_hashlib.py:        out = pbkdf2(hash_name='sha1', password=b'password', salt=b'salt',
+/media/ubuntu/DATA/repositories-python/eudicots__Cactus/requirements_licma_analysis/Django-1.6.11-py2.py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/eudicots__Cactus/requirements_licma_analysis/Django-1.6.11-py2.py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/QingdaoU__OnlineJudge/requirements_licma_analysis/Django-2.1.7-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/QingdaoU__OnlineJudge/requirements_licma_analysis/Django-2.1.7-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/samuelcolvin__pydantic/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/samuelcolvin__pydantic/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/doccano__doccano/requirements_licma_analysis/Django-2.1.11-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/doccano__doccano/requirements_licma_analysis/Django-2.1.11-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/doccano__doccano/requirements_licma_analysis/Django-2.2.10-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/doccano__doccano/requirements_licma_analysis/Django-2.2.10-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/golemfactory__golem/requirements_licma_analysis/autobahn-19.6.2-py2.py3-none-any/autobahn/wamp/auth.py:    return pbkdf2(password, salt, iterations, keylen=32)
+/media/ubuntu/DATA/repositories-python/golemfactory__golem/requirements_licma_analysis/autobahn-19.6.2-py2.py3-none-any/autobahn/wamp/auth.py:def pbkdf2(data, salt, iterations=1000, keylen=32, hashfunc=None):
+/media/ubuntu/DATA/repositories-python/golemfactory__golem/requirements_licma_analysis/autobahn-19.6.2-py2.py3-none-any/autobahn/wamp/auth.py:    key = pbkdf2(secret, salt, iterations, keylen)
+/media/ubuntu/DATA/repositories-python/AKSHAYUBHAT__DeepVideoAnalytics/requirements_licma_analysis/Django-1.11.28-py2.py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/AKSHAYUBHAT__DeepVideoAnalytics/requirements_licma_analysis/Django-1.11.28-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/AKSHAYUBHAT__DeepVideoAnalytics/requirements_licma_analysis/Django-1.11.28-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/healthchecks__healthchecks/requirements_licma_analysis/Django-3.0.4-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/healthchecks__healthchecks/requirements_licma_analysis/Django-3.0.4-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/liangliangyy__DjangoBlog/requirements_licma_analysis/Django-3.0.5-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/liangliangyy__DjangoBlog/requirements_licma_analysis/Django-3.0.5-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/graphql-python__graphene-django/requirements_licma_analysis/Django-3.0.3-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/graphql-python__graphene-django/requirements_licma_analysis/Django-3.0.3-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/cobrateam__splinter/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/cobrateam__splinter/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/dyve__django-bootstrap3/requirements_licma_analysis/Django-3.0.5-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/dyve__django-bootstrap3/requirements_licma_analysis/Django-3.0.5-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/awesto__django-shop/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/awesto__django-shop/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/crossbario__autobahn-python/autobahn/wamp/auth.py:    return pbkdf2(password, salt, iterations, keylen=32)
+/media/ubuntu/DATA/repositories-python/crossbario__autobahn-python/autobahn/wamp/auth.py:def pbkdf2(data, salt, iterations=1000, keylen=32, hashfunc=None):
+/media/ubuntu/DATA/repositories-python/crossbario__autobahn-python/autobahn/wamp/auth.py:    key = pbkdf2(secret, salt, iterations, keylen)
+/media/ubuntu/DATA/repositories-python/Greenwolf__social_mapper/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/Greenwolf__social_mapper/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_crypto_digest.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            result = pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/utils/pbkdf2.py:def pbkdf2(secret, salt, rounds, keylen=None, prf="hmac-sha1"):
+/media/ubuntu/DATA/repositories-python/CTFd__CTFd/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_crypto_digest.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/CTFd__CTFd/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:    """test pbkdf2() support"""
+/media/ubuntu/DATA/repositories-python/CTFd__CTFd/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            result = pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/CTFd__CTFd/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/CTFd__CTFd/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/tests/test_utils_pbkdf2.py:            return pbkdf2(secret, salt, rounds, keylen, prf)
+/media/ubuntu/DATA/repositories-python/CTFd__CTFd/requirements_licma_analysis/passlib-1.7.2-py2.py3-none-any/passlib/utils/pbkdf2.py:def pbkdf2(secret, salt, rounds, keylen=None, prf="hmac-sha1"):
+/media/ubuntu/DATA/repositories-python/zhoubear__open-paperless/requirements_licma_analysis/Django-1.10.7-py2.py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/zhoubear__open-paperless/requirements_licma_analysis/Django-1.10.7-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/zhoubear__open-paperless/requirements_licma_analysis/Django-1.10.7-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/wechatpy__wechatpy/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/wechatpy__wechatpy/requirements_licma_analysis/Django-3.0.8-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/Django-1.11.28-py2.py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/Django-1.11.28-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/Django-1.11.28-py2.py3-none-any/django/utils/crypto.py:    def pbkdf2(password, salt, iterations, dklen=0, digest=None):
+/media/ubuntu/DATA/repositories-python/marcgibbons__django-rest-swagger/requirements_licma_analysis/Django-2.1.3-py3-none-any/django/contrib/auth/hashers.py:        hash = pbkdf2(password, salt, iterations, digest=self.digest)
+/media/ubuntu/DATA/repositories-python/marcgibbons__django-rest-swagger/requirements_licma_analysis/Django-2.1.3-py3-none-any/django/utils/crypto.py:def pbkdf2(password, salt, iterations, dklen=0, digest=None):

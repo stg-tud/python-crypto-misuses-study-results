@@ -1,0 +1,80 @@
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/ansible__ansible/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/certbot__certbot/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/certbot__certbot/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/certbot__certbot/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/certbot__certbot/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/docker__compose/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/docker__compose/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/docker__compose/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/docker__compose/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/tornadoweb__tornado/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/HelloZeroNet__ZeroNet/requirements_licma_analysis/asn1crypto-1.3.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/python-poetry__poetry/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/python-poetry__poetry/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/python-poetry__poetry/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/python-poetry__poetry/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/sovereign__sovereign/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/Gallopsled__pwntools/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/Gallopsled__pwntools/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/Gallopsled__pwntools/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/Gallopsled__pwntools/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/boto__boto/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/boto__boto/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/boto__boto/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/boto__boto/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/MobSF__Mobile-Security-Framework-MobSF/requirements_licma_analysis/asn1crypto-1.3.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/taigaio__taiga-back/requirements_licma_analysis/asn1crypto-1.3.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/docker__docker-py/requirements_licma_analysis/asn1crypto-0.22.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/docker__docker-py/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/docker__docker-py/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/docker__docker-py/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/docker__docker-py/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/wbond__package_control/package_control/deps/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/asn1crypto-0.24.0/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/requirements_licma_analysis/asn1crypto-0.24.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/stewartmcgown__uds/requirements_licma_analysis/asn1crypto-1.3.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/Kinto__kinto/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__CrackMapExec/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__CrackMapExec/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__CrackMapExec/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__CrackMapExec/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/byt3bl33d3r__CrackMapExec/requirements_licma_analysis/asn1crypto-1.3.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/cookiecutter-flask__cookiecutter-flask/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/guardicore__monkey/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/guardicore__monkey/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/guardicore__monkey/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/guardicore__monkey/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/cowrie__cowrie/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/mantl__mantl/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/mantl__mantl/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/mantl__mantl/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/mantl__mantl/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/androguard__androguard/requirements_licma_analysis/asn1crypto-1.4.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/golemfactory__golem/requirements_licma_analysis/asn1crypto-0.22.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/golemfactory__golem/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/freedomofpress__securedrop/requirements_licma_analysis/asn1crypto-0.24.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/freedomofpress__securedrop/requirements_licma_analysis/asn1crypto-0.22.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/freedomofpress__securedrop/requirements_licma_analysis/bcrypt-3.1.3-cp36-cp36m-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/cloud-custodian__cloud-custodian/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/cloud-custodian__cloud-custodian/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/cloud-custodian__cloud-custodian/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/cloud-custodian__cloud-custodian/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/ab77__netflix-proxy/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/CTFd__CTFd/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/pritunl__pritunl/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/pritunl__pritunl/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/pritunl__pritunl/requirements_licma_analysis/PyNaCl-1.3.0-cp34-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/Chaosthebot__Chaos/requirements_licma_analysis/asn1crypto-0.22.0-py2.py3-none-any/asn1crypto/algos.py:    def kdf(self):
+/media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/bcrypt-3.1.7-cp34-abi3-manylinux1_x86_64/bcrypt/__init__.py:def kdf(password, salt, desired_key_bytes, rounds, ignore_few_rounds=False):
+/media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/scrypt.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2i.py:def kdf(size, password, salt,
+/media/ubuntu/DATA/repositories-python/guohongze__adminset/requirements_licma_analysis/PyNaCl-1.4.0-cp35-abi3-manylinux1_x86_64/nacl/pwhash/argon2id.py:def kdf(size, password, salt,

@@ -1,0 +1,1 @@
+python3 generate-extraction-script-for-packages.py -i /media/ubuntu/DATA/repositories-micropython -o extraction_script_for_micropython_packages.sh | tee -a generate-extraction-script-for-packages-log.txt

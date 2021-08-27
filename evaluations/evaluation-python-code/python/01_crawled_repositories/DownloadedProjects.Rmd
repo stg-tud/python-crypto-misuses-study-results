@@ -1,0 +1,17 @@
+---
+title: "LICMA Downloaded Projects"
+output: github_document
+---
+
+# LICMA Meta-analysis
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+if(!require('pacman')) irnstall.packages("pacman")
+pacman::p_load(dplyr, readr, stringr, ggplot2, here)
+```
+
+```{r getData}
+log <- readr::read_csv(here("evaluations", "evaluation-python-code", "python", "01_crawled_repositories", "2020-05-07-14-21_repositories-EDITED.csv"))
+summary(log)
+```

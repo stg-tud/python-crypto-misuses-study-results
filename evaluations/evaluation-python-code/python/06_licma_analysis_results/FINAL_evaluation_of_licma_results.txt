@@ -1,0 +1,109 @@
+Evaluation of the log file
+==================================================
+Number of processed files: 946
+Number of successfully processed files: 911
+Number of processed files without any error: 861
+Errors: 85
+Parsing not possible: 35
+Maximum recursion depth exceeded: 50
+==> rule: PyQuery: Rule 1 M2Crypto: 1
+==> rule: PyQuery: Rule 3 cryptography: 1
+==> rule: PyQuery: Rule 5 M2Crypto: 40
+==> rule: PyQuery: Rule 4 M2Crypto: 2
+==> rule: PyQuery: Rule 2 PyCrypto: 1
+==> rule: PyQuery: Rule 3 PyCrypto: 5
+
+
+Evaluation of the result file
+==================================================
+Number of misuses: 1501
+Number of warning misuses: 1416
+Number of critical misuses: 85
+Number of unknown misuses: 0
+Misuses in libs total: 1396
+==> PyQuery: Rule 4 | PyCrypto: 47
+==> PyQuery: Rule 5 | PyCrypto: 30
+==> PyQuery: Rule 1 | PyCrypto: 9
+==> PyQuery: Rule 2 | PyCrypto: 3
+==> PyQuery: Rule 1 | M2Crypto: 423
+==> PyQuery: Rule 2 | M2Crypto: 410
+==> PyQuery: Rule 3 | cryptography: 428
+==> PyQuery: Rule 3 | M2Crypto: 9
+==> PyQuery: Rule 1 | cryptography: 7
+==> PyQuery: Rule 2 | cryptography: 9
+==> PyQuery: Rule 4 | cryptography: 2
+==> PyQuery: Rule 5 | M2Crypto: 1
+==> PyQuery: Rule 3 | PyCrypto: 18
+Misuses in libs total without duplicates: 34
+==> PyQuery: Rule 4 | PyCrypto: 9
+==> PyQuery: Rule 1 | PyCrypto: 2
+==> PyQuery: Rule 1 | M2Crypto: 18
+==> PyQuery: Rule 4 | cryptography: 1
+==> PyQuery: Rule 5 | M2Crypto: 1
+==> PyQuery: Rule 3 | PyCrypto: 3
+Misuses in libs warning: 1329
+==> PyQuery: Rule 4 | PyCrypto: 33
+==> PyQuery: Rule 1 | M2Crypto: 423
+==> PyQuery: Rule 2 | M2Crypto: 410
+==> PyQuery: Rule 3 | cryptography: 423
+==> PyQuery: Rule 3 | M2Crypto: 7
+==> PyQuery: Rule 1 | cryptography: 7
+==> PyQuery: Rule 2 | cryptography: 7
+==> PyQuery: Rule 5 | M2Crypto: 1
+==> PyQuery: Rule 3 | PyCrypto: 18
+Misuses in libs warning without duplicates: 33
+==> PyQuery: Rule 4 | PyCrypto: 10
+==> PyQuery: Rule 1 | M2Crypto: 18
+==> PyQuery: Rule 5 | M2Crypto: 1
+==> PyQuery: Rule 3 | PyCrypto: 4
+Misuses in libs critical: 67
+==> PyQuery: Rule 5 | PyCrypto: 30
+==> PyQuery: Rule 4 | PyCrypto: 14
+==> PyQuery: Rule 1 | PyCrypto: 9
+==> PyQuery: Rule 2 | PyCrypto: 3
+==> PyQuery: Rule 3 | M2Crypto: 2
+==> PyQuery: Rule 2 | cryptography: 2
+==> PyQuery: Rule 3 | cryptography: 5
+==> PyQuery: Rule 4 | cryptography: 2
+Misuses in libs critical without duplicates: 12
+==> PyQuery: Rule 5 | PyCrypto: 1
+==> PyQuery: Rule 4 | PyCrypto: 5
+==> PyQuery: Rule 1 | PyCrypto: 2
+==> PyQuery: Rule 3 | M2Crypto: 2
+==> PyQuery: Rule 3 | cryptography: 1
+==> PyQuery: Rule 4 | cryptography: 1
+Misuses in repos total: 105
+==> PyQuery: Rule 1 | PyCrypto: 4
+==> PyQuery: Rule 2 | PyCrypto: 1
+==> PyQuery: Rule 4 | PyCrypto: 6
+==> PyQuery: Rule 5 | PyCrypto: 2
+==> PyQuery: Rule 1 | M2Crypto: 23
+==> PyQuery: Rule 3 | M2Crypto: 7
+==> PyQuery: Rule 1 | cryptography: 5
+==> PyQuery: Rule 2 | cryptography: 7
+==> PyQuery: Rule 3 | cryptography: 28
+==> PyQuery: Rule 4 | cryptography: 1
+==> PyQuery: Rule 2 | M2Crypto: 12
+==> PyQuery: Rule 4 | M2Crypto: 1
+==> PyQuery: Rule 3 | PyCrypto: 6
+==> PyQuery: Rule 3 | PyNaCl: 2
+Misuses in repos warning: 87
+==> PyQuery: Rule 4 | PyCrypto: 5
+==> PyQuery: Rule 1 | M2Crypto: 23
+==> PyQuery: Rule 3 | M2Crypto: 5
+==> PyQuery: Rule 1 | cryptography: 5
+==> PyQuery: Rule 2 | cryptography: 5
+==> PyQuery: Rule 3 | cryptography: 23
+==> PyQuery: Rule 2 | M2Crypto: 12
+==> PyQuery: Rule 4 | M2Crypto: 1
+==> PyQuery: Rule 3 | PyCrypto: 6
+==> PyQuery: Rule 3 | PyNaCl: 2
+Misuses in repos critical: 18
+==> PyQuery: Rule 1 | PyCrypto: 4
+==> PyQuery: Rule 2 | PyCrypto: 1
+==> PyQuery: Rule 4 | PyCrypto: 1
+==> PyQuery: Rule 5 | PyCrypto: 2
+==> PyQuery: Rule 3 | M2Crypto: 2
+==> PyQuery: Rule 2 | cryptography: 2
+==> PyQuery: Rule 3 | cryptography: 5
+==> PyQuery: Rule 4 | cryptography: 1

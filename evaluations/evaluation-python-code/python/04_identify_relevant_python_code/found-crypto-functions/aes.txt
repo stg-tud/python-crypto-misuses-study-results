@@ -1,0 +1,773 @@
+/media/ubuntu/DATA/repositories-python/Yorko__mlcourse.ai/jupyter_russian/projects_individual/project_used_cars_yuliya_klimushina.ipynb:    "ggplot(y_test_preds, aes(x='y_true',y='y_preds')) + \\\n",
+/media/ubuntu/DATA/repositories-python/Yorko__mlcourse.ai/jupyter_russian/tutorials/random_forest_interpretation_ostroukhov/random_forest_interpretation_ostroukhov.ipynb:    "ggplot(pd.concat([X,pd.DataFrame(Y,columns=['SalePrice'])],axis=1), aes('RM', 'SalePrice'))+stat_smooth(se=True, method='loess',span=0.2)+ylab(element_text(size=20, text='SalePrice')) +\\\n",
+/media/ubuntu/DATA/repositories-python/Yorko__mlcourse.ai/jupyter_russian/tutorials/random_forest_interpretation_ostroukhov/random_forest_interpretation_ostroukhov.ipynb:    "ggplot(df_pdp, aes('RM', 'SalePrice'))+stat_smooth(se=True, method='loess',span=0.2)+ylab(element_text(size=20, text='SalePrice')) +\\\n",
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/hydrogen/hydrogen_latex_html_R_magics.py:ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_hydrogen/Notebook with html and latex cells.py:ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_hydrogen/Notebook_with_R_magic.py:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_hydrogen/Notebook_with_R_magic.py:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_percent/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_percent/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_percent/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vim_folding_markers/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vim_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vim_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vscode_folding_markers/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vscode_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/plotly__plotly.py/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vscode_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/axi0mX__ipwndfu/dfuexec.py:    def aes(self, data, action, key):
+/media/ubuntu/DATA/repositories-python/axi0mX__ipwndfu/usbexec.py:  def aes(self, data, action, key):
+/media/ubuntu/DATA/repositories-python/airbnb__knowledge-repo/knowledge_repo/templates/knowledge_template.Rmd:  ggplot(test_data, aes(y = y1, x = x)) + geom_line()
+/media/ubuntu/DATA/repositories-python/airbnb__knowledge-repo/knowledge_repo/templates/knowledge_template.Rmd:  ggplot(test_data, aes(y = y2, x = x)) + geom_line()
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/ext-py/pysaml2-4.9.0/src/saml2/authn.py:    def aes(self):
+/media/ubuntu/DATA/repositories-python/cloudera__hue/desktop/core/src/desktop/static/desktop/js/ace/snippets/r.js:ace.define("ace/snippets/r",["require","exports","module"],function(e,t,n){"use strict";t.snippetText='snippet #!\n	#!/usr/bin/env Rscript\n\n# includes\nsnippet lib\n	library(${1:package})\nsnippet req\n	require(${1:package})\nsnippet source\n	source(\'${1:file}\')\n\n# conditionals\nsnippet if\n	if (${1:condition}) {\n		${2:code}\n	}\nsnippet el\n	else {\n		${1:code}\n	}\nsnippet ei\n	else if (${1:condition}) {\n		${2:code}\n	}\n\n# functions\nsnippet fun\n	${1:name} = function (${2:variables}) {\n		${3:code}\n	}\nsnippet ret\n	return(${1:code})\n\n# dataframes, lists, etc\nsnippet df\n	${1:name}[${2:rows}, ${3:cols}]\nsnippet c\n	c(${1:items})\nsnippet li\n	list(${1:items})\nsnippet mat\n	matrix(${1:data}, nrow=${2:rows}, ncol=${3:cols})\n\n# apply functions\nsnippet apply\n	apply(${1:array}, ${2:margin}, ${3:function})\nsnippet lapply\n	lapply(${1:list}, ${2:function})\nsnippet sapply\n	sapply(${1:list}, ${2:function})\nsnippet vapply\n	vapply(${1:list}, ${2:function}, ${3:type})\nsnippet mapply\n	mapply(${1:function}, ${2:...})\nsnippet tapply\n	tapply(${1:vector}, ${2:index}, ${3:function})\nsnippet rapply\n	rapply(${1:list}, ${2:function})\n\n# plyr functions\nsnippet dd\n	ddply(${1:frame}, ${2:variables}, ${3:function})\nsnippet dl\n	dlply(${1:frame}, ${2:variables}, ${3:function})\nsnippet da\n	daply(${1:frame}, ${2:variables}, ${3:function})\nsnippet d_\n	d_ply(${1:frame}, ${2:variables}, ${3:function})\n\nsnippet ad\n	adply(${1:array}, ${2:margin}, ${3:function})\nsnippet al\n	alply(${1:array}, ${2:margin}, ${3:function})\nsnippet aa\n	aaply(${1:array}, ${2:margin}, ${3:function})\nsnippet a_\n	a_ply(${1:array}, ${2:margin}, ${3:function})\n\nsnippet ld\n	ldply(${1:list}, ${2:function})\nsnippet ll\n	llply(${1:list}, ${2:function})\nsnippet la\n	laply(${1:list}, ${2:function})\nsnippet l_\n	l_ply(${1:list}, ${2:function})\n\nsnippet md\n	mdply(${1:matrix}, ${2:function})\nsnippet ml\n	mlply(${1:matrix}, ${2:function})\nsnippet ma\n	maply(${1:matrix}, ${2:function})\nsnippet m_\n	m_ply(${1:matrix}, ${2:function})\n\n# plot functions\nsnippet pl\n	plot(${1:x}, ${2:y})\nsnippet ggp\n	ggplot(${1:data}, aes(${2:aesthetics}))\nsnippet img\n	${1:(jpeg,bmp,png,tiff)}(filename="${2:filename}", width=${3}, height=${4}, unit="${5}")\n	${6:plot}\n	dev.off()\n\n# statistical test functions\nsnippet fis\n	fisher.test(${1:x}, ${2:y})\nsnippet chi\n	chisq.test(${1:x}, ${2:y})\nsnippet tt\n	t.test(${1:x}, ${2:y})\nsnippet wil\n	wilcox.test(${1:x}, ${2:y})\nsnippet cor\n	cor.test(${1:x}, ${2:y})\nsnippet fte\n	var.test(${1:x}, ${2:y})\nsnippet kvt \n	kv.test(${1:x}, ${2:y})\n',t.scope="r"})
+/media/ubuntu/DATA/repositories-python/cloudera__hue/tools/ace-editor/lib/ace/snippets/r.snippets:	ggplot(${1:data}, aes(${2:aesthetics}))
+/media/ubuntu/DATA/repositories-python/NervanaSystems__neon/requirements_licma_analysis/bokeh-0.9.3/bokeh-0.9.3/examples/compat/ggplot/density.py:g = ggplot(diamonds, aes(x='price', color='cut')) + geom_density()
+/media/ubuntu/DATA/repositories-python/NervanaSystems__neon/requirements_licma_analysis/bokeh-0.9.3/bokeh-0.9.3/examples/compat/ggplot/xkcd_density.py:g = ggplot(diamonds, aes(x='price', color='cut')) + geom_density()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/README.md:ggplot(diamonds, aes(x='price', color='clarity')) + \
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/README.rst:    ggplot(diamonds, aes(x='price', color='clarity')) + \
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='price', color='clarity')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(pigeons, aes(x='pos', y='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(pigeons, aes(x='pos', y='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(mtcars, aes(x='mpg', y='cyl', color='steelblue')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(mtcars, aes(x='mpg', y='cyl')) + geom_point(color='green')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap('clarity', ncol=4)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap('clarity', nrow=5)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(x='clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(y='clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity', y='cut')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(y='clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', size='clarity')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', size='x')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', alpha='x')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', alpha='x')) + geom_point() + facet_grid(x='clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', alpha='x')) + geom_point() + facet_grid(y='clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', shape='clarity')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', shape='cut', color='clarity')) + geom_point() + scale_color_brewer() + facet_grid(x='color')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_color_brewer() + facet_grid(x='color', y='clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', shape='cut', color='clarity')) + geom_point() + scale_color_brewer() + facet_grid(y='color')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', color='clarity')) + geom_point() + scale_color_brewer(type='div')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', color='x')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', linetype='cut')) + geom_line()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat')) + geom_histogram()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', color='clarity')) + geom_point() + xlab(\"THIS IS AN X LABEL\") + ylab(\"THIS IS A Y LABEL\") + ggtitle(\"THIS IS A TITLE\")"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat')) + geom_density()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_hline(y=10)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_vline(x=10)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='clarity')) + geom_bar()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='clarity', weight='x')) + geom_bar()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + geom_abline(slope=5000, intercept=-500)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + geom_abline(slope=5000, intercept=-500) + facet_wrap(y='clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "# p = ggplot(df, aes(x='x', ymin='y_low', ymax='y_high')) + geom_area()\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "# print \"\"\"p = ggplot(df, aes(x='x', ymin='y_low', ymax='y_high')) + geom_area()\"\"\",  p\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "p = ggplot(df, aes(x='x', ymin='y_low', ymax='y_high')) + geom_area() + facet_wrap(x='thing')\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='color', y='cut')\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(x='color')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(y='color')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_histogram() + facet_grid(x='color', y='cut')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_polar()\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(df, aes(x='x', y='y')) + geom_point() + coord_equal()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(df, aes(x='x', y='y')) + geom_point() + coord_flip()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(df, aes(x='x', y='y')) + geom_point() + coord_flip() + facet_grid(x='z')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + scale_x_date(labels=date_format('%B %-d, %Y'))"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + scale_x_date(labels=date_format('%B %-d, %Y')) + facet_grid(y='z')\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/Gallery.ipynb:    "ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(mtcars, aes(x='mpg', y='cyl', color='steelblue')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(mtcars, aes(x='mpg', y='cyl')) + geom_point(color='green')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(100), aes(x='carat', y='price')) + geom_point() + facet_wrap('clarity', ncol=4)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(100), aes(x='carat', y='price')) + geom_point() + facet_wrap('clarity', nrow=5)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(x='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity', y='cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', size='clarity')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', size='x')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', alpha='x')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', alpha='x')) + geom_point() + facet_grid(x='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', alpha='x')) + geom_point() + facet_grid(y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price', shape='clarity')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(100), aes(x='carat', y='price', shape='cut', color='clarity')) + geom_point() + scale_color_brewer() + facet_grid(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(100), aes(x='carat', y='price')) + geom_point() + scale_color_brewer() + facet_grid(x='color', y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(100), aes(x='carat', y='price', shape='cut', color='clarity')) + geom_point() + scale_color_brewer() + facet_grid(y='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(100), aes(x='carat', y='price', color='clarity')) + geom_point() + scale_color_brewer(type='div')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(100), aes(x='carat', y='price', color='x')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds.sample(100), aes(x='carat', y='price', linetype='cut')) + geom_line()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat')) + geom_histogram()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price', color='clarity')) + geom_point() + xlab("THIS IS AN X LABEL") + ylab("THIS IS A Y LABEL") + ggtitle("THIS IS A TITLE")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat')) + geom_density()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='price')) + geom_hline(y=10)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='price')) + geom_vline(x=10)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='clarity')) + geom_bar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='clarity', weight='x')) + geom_bar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + geom_abline(slope=5000, intercept=-500)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + geom_abline(slope=5000, intercept=-500) + facet_wrap(y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(df, aes(x='x', ymin='y_low', ymax='y_high')) + geom_area()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(df, aes(x='x', ymin='y_low', ymax='y_high')) + geom_area() + facet_wrap(x='thing')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='color', y='cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(y='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='price')) + geom_histogram() + facet_grid(x='color', y='cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_polar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_equal()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_equal() + facet_wrap(x='z')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_flip()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_flip() + facet_grid(x='z')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + scale_x_date(labels=date_format('%B %-d, %Y'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + scale_x_date(labels=date_format('%B %-d, %Y')) + facet_grid(y='z')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + facet_grid(y='z')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth(method='lm')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth(method='lowess')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth(method='lowess', span=0.2)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(y='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + scale_color_manual(values=['pink', 'skyblue'])
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='tip')) + geom_point() + scale_color_gradient(low='pink', high='royalblue')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() +  scale_x_log() + scale_y_log()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_log() + scale_y_log() + facet_wrap(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_reverse() + scale_y_reverse() + facet_wrap(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_continuous(breaks=[0, 3, 6], labels=["Low", "Medium", "High"]) + scale_y_continuous(breaks=[0, 10000, 20000], labels=["Low", "Medium", "High"]) + facet_wrap(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + theme_gray()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + theme_xkcd()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point(color='orange')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex', shape='smoker', size='tip')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + facet_wrap(x="time")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + facet_wrap(y="time")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + facet_wrap(x="time")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + geom_line() + facet_wrap(x="time", y="smoker")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() + facet_wrap(x="time", y="smoker")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() + scale_color_brewer()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() + theme_538()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + xlim(low=10, high=25) + ylim(2, 12)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + labs(x="this is x", y="this is y", title="this is title")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + geom_vline(x=30) + geom_hline(y=10) + ylab("GOo!") + ggtitle("This is a title")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + facet_wrap(x="time", y="smoker")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_line(color="blue") + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_line(color="blue") + geom_point() + facet_wrap(x="time", y="smoker")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill')) + geom_histogram()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill')) + geom_density()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples.py:p = ggplot(tips, aes(x='total_bill')) + geom_density() + facet_wrap(y="time")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Adding Labels.ipynb:    "ggplot(mpg, aes(x='cty')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Adding a Title.ipynb:    "ggplot(mpg, aes(x='cty', y='hwy')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Adjusting Shapes.ipynb:    "ggplot(mpg, aes(x='cty', y='hwy', shape='trans')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Area Chart.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Bar Chart.ipynb:    "ggplot(mtcars, aes(x='factor(cyl)')) + geom_bar()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Boxplots.ipynb:    "ggplot(mtcars, aes(x='factor(cyl)', y='mpg')) + geom_boxplot()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Color Gradients.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', color='depth')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Color Palettes.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', color='clarity')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Density Plots.ipynb:    "ggplot(mpg, aes(x='value', color='variable')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Faceting Basics.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', color='cut')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Faceting Basics.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Histogram.ipynb:    "ggplot(diamonds, aes(x='price', fill='clarity')) + geom_histogram()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/LOESS Regression.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + geom_line() + stat_smooth(method='loess')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Line Chart.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + geom_line()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Linear Regression.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Multiple Line Plot.ipynb:    "ggplot(meat, aes(x='date', y='value', color='variable')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Plotting Text.ipynb:    "ggplot(mpg, aes(x='cty', y='hwy', label='manufacturer')) + geom_text()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Plotting a Horizontal Line.ipynb:    "ggplot(mpg, aes(x='cty', y='hwy', shape='trans')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Plotting a Line Equation.ipynb:    "ggplot(mpg, aes(x='cty', y='hwy')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Plotting a Vertical Line.ipynb:    "ggplot(mpg, aes(x='cty', y='hwy', shape='trans')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Scatter Plot.ipynb:    "ggplot(chopsticks, aes(x='individual', y='food_pinching_effeciency')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Scatter with Line.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/examples/Smoothed Line Chart.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_grid.ipynb:    "ggplot(diamonds, aes(x='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_grid.ipynb:    "ggplot(diamonds, aes(x='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_grid.ipynb:    "ggplot(chopsticks, aes(x='chopstick_length', y='food_pinching_effeciency')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_grid.ipynb:    "ggplot(meat_lng, aes(x='value')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_grid.ipynb:    "ggplot(meat_lng, aes(x='value')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_grid.ipynb:    "ggplot(meat_lng, aes(x='value')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_grid.ipynb:    "ggplot(meat_lng, aes(x='value')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_wrap.ipynb:    "ggplot(diamonds, aes(x='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_wrap.ipynb:    "ggplot(diamonds, aes(x='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_wrap.ipynb:    "ggplot(chopsticks, aes(x='chopstick_length', y='food_pinching_effeciency')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_wrap.ipynb:    "ggplot(chopsticks, aes(x='chopstick_length', y='food_pinching_effeciency')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_wrap.ipynb:    "ggplot(chopsticks, aes(x='chopstick_length', y='food_pinching_effeciency')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_wrap.ipynb:    "ggplot(chopsticks, aes(x='chopstick_length', y='food_pinching_effeciency')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/facets/facet_wrap.ipynb:    "ggplot(chopsticks, aes(x='chopstick_length', y='food_pinching_effeciency')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_abline.ipynb:    "ggplot(pigeons, aes(x='pos', y='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_abline.ipynb:    "ggplot(pigeons, aes(x='pos', y='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_abline.ipynb:    "ggplot(pigeons, aes(x='pos', y='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_abline.ipynb:    "ggplot(pigeons, aes(x='pos', y='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_abline.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_abline.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_abline.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_abline.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_area.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_area.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_area.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_bar.ipynb:    "ggplot(mtcars, aes(x='cyl')) + geom_bar()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_bar.ipynb:    "ggplot(mtcars, aes(x='cyl', fill='blue')) + geom_bar()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_bar.ipynb:    "ggplot(mtcars, aes(x='cyl')) + geom_bar(color='red')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_bar.ipynb:    "ggplot(diamonds, aes(x='clarity', weight='x')) + geom_bar()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_bar.ipynb:    "ggplot(diamonds, aes(x='clarity')) + geom_bar()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_bin2d.ipynb:    "ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_bin2d.ipynb:    "ggplot(df, aes(x='x', y='y', fill='w')) + geom_bin2d()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_bin2d.ipynb:    "ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(ybins=5)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_bin2d.ipynb:    "ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(xbins=8, ybins=10)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_blank.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_blank()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_blank.ipynb:    "ggplot(diamonds, aes(x='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_boxplot.ipynb:    "ggplot(mpg, aes(x='class', y='hwy')) + geom_boxplot()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_boxplot.ipynb:    "ggplot(mpg, aes(x='class', y='hwy')) + geom_boxplot() + facet_wrap('manufacturer')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_boxplot.ipynb:    "ggplot(diamonds, aes(x='clarity', y='price')) + geom_boxplot()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_boxplot.ipynb:    "ggplot(diamonds, aes(x='clarity', y='price')) + geom_boxplot(outliers=False)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_boxplot.ipynb:    "ggplot(diamonds, aes(x='clarity', y='price')) + geom_boxplot(outliers=False, median=False)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_boxplot.ipynb:    "ggplot(diamonds, aes(x='clarity', y='price')) + geom_boxplot(outliers=False, median=False, lines=False)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_boxplot.ipynb:    "ggplot(diamonds, aes(x='clarity', y='price')) + geom_boxplot(outliers=False, notch=True)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_boxplot.ipynb:    "ggplot(chopsticks, aes(x='individual', y='food_pinching_effeciency')) + geom_boxplot()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_histogram.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_histogram()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_hline.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg')) + geom_point() + geom_hline(y=25)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_hline.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_hline.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_hline.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_hline.ipynb:    "ggplot(diamonds, aes(x='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_hline.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_jitter.ipynb:    "ggplot(chopsticks, aes(x='chopstick_length', y='food_pinching_effeciency')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_jitter.ipynb:    "ggplot(chopsticks, aes(x='chopstick_length', y='food_pinching_effeciency')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_jitter.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_jitter()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_jitter.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_jitter.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_line.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + geom_line()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_line.ipynb:    "ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_line.ipynb:    "ggplot(meat_lng, aes(x='date', y='value', color='variable')) + geom_line()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_line.ipynb:    "ggplot(meat_lng, aes(x='date', y='value', linetype='variable')) + geom_line()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='cyl')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', shape='factor(cyl)')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point(color='steelblue')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point(alpha=1/100.)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point(alpha=1/100.) + stat_smooth()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(mpg, aes(x='year', y='hwy', color='class')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(mpg, aes(x='cty', y='hwy', color='class')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_point.ipynb:    "ggplot(mpg, aes(x='cty', y='hwy', color='class')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_rect.ipynb:    "p = ggplot(df, aes(xmin='x - w / 2', xmax='x + w / 2', ymin='y', ymax='y + 1', fill='z')) + geom_rect()\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_rect.ipynb:    "p = ggplot(df, aes(xmin='x - w / 2', xmax='x + w / 2', ymin='y', ymax='y + 1', fill='z')) + geom_rect(color='black')\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_rect.ipynb:    "p = ggplot(df, aes(xmin='x - w / 2', xmax='x + w / 2', ymin='y', ymax='y + 1', fill='z')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_ribbon.ipynb:    "ggplot(meat, aes(x='date', ymin='beef - 1000', ymax='beef + 1000')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_ribbon.ipynb:    "ggplot(meat, aes(x='date', ymin='beef*0.9', ymax='beef*1.1')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_ribbon.ipynb:    "ggplot(meat, aes(x='date', y='beef', ymin='beef*0.9', ymax='beef*1.1')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_step.ipynb:    "ggplot(pigeons, aes(x='pos', y='speed')) + geom_line()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_step.ipynb:    "ggplot(pigeons, aes(x='pos', y='speed')) + geom_step()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_step.ipynb:    "ggplot(pigeons.head(25), aes(x='pos', y='speed')) + geom_step(direction='hv')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_step.ipynb:    "ggplot(pigeons.head(25), aes(x='pos', y='speed')) + geom_step(direction='vh')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_step.ipynb:    "ggplot(random_walk, aes(x='x', y='y')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_step.ipynb:    "ggplot(random_walk, aes(x='x', y='y')) + geom_point() + geom_step()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_step.ipynb:    "ggplot(random_walk, aes(x='x', y='y')) + geom_line(color='coral') + geom_step(color='steelblue')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_step.ipynb:    "ggplot(random_walk, aes(x='x', y='y', color='project')) + geom_step()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_step.ipynb:    "ggplot(random_walk, aes(x='x', y='y', color='project')) + geom_step(size=5)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_text.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', label='name')) + geom_text()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_text.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', label='name')) + geom_text(rotation=45.)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_text.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', label='name')) + geom_text(rotation=-45.)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_text.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', label='name')) + geom_text(rotation=-90., color='purple')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_text.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', label='name')) + geom_text(size=36, alpha=0.5)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_text.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', label='name')) + geom_text(hjust=0.2) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_text.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', label='name')) + geom_text(vjust=-1) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_vline.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_vline.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_vline.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/geoms/geom_vline.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(mtcars, aes(x='mpg')) + geom_histogram() + xlab(\"This is my X Label\")"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(mtcars, aes(x='mpg')) + geom_histogram() + xlab(\"This is my X\\nIs on Multiple Lines\")"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(mtcars, aes(x='mpg')) + geom_histogram() + xlab(\"Miles per Gallon\") + ylab(\"# of Cars\")"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(mtcars, aes(x='mpg')) + geom_histogram() + ggtitle(\"This is my Title\")"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(mtcars, aes(x='mpg')) + geom_histogram() + ggtitle(\"This is my Title\\nOn Two Lines\")"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + xlim(0, 4)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + xlim(0, 4) + ylim(0, 20000)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='cut')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='cut')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='cut')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Annotating Plots - Titles and Labels.ipynb:    "ggplot(diamonds, aes(x='cut')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Building Faceted (or Trellised) Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid('clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Building Faceted (or Trellised) Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(None, 'clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Building Faceted (or Trellised) Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap('clarity')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Building Faceted (or Trellised) Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap('clarity', ncol=4)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Building Faceted (or Trellised) Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap('clarity', 'cut')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Building Faceted (or Trellised) Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', shape='cut', color='clarity')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Building Faceted (or Trellised) Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price', color='depth')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Color Swatches.ipynb:    "ggplot(df, aes(x='x', y='y', color='swatch')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Customizing Colors.ipynb:    "ggplot(temperature, aes(x='celsius', y='farenheit', color='kelvin')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Customizing your x and y axis - Scaling and Coordinates.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Customizing your x and y axis - Scaling and Coordinates.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Customizing your x and y axis - Scaling and Coordinates.ipynb:    "ggplot(df, aes(x='x', y='y')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Customizing your x and y axis - Scaling and Coordinates.ipynb:    "ggplot(df, aes(x='x', y='y')) + geom_point() + scale_x_log()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Customizing your x and y axis - Scaling and Coordinates.ipynb:    "ggplot(mtcars, aes(x='mpg')) + geom_histogram() + scale_x_reverse()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Customizing your x and y axis - Scaling and Coordinates.ipynb:    "ggplot(mtcars, aes(x='mpg')) + geom_histogram() + scale_y_reverse()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Customizing your x and y axis - Scaling and Coordinates.ipynb:    "p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_polar()\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Customizing your x and y axis - Scaling and Coordinates.ipynb:    "ggplot(df, aes(x='x', y='y')) + geom_point() + geom_line() + coord_polar()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/How to Make a Histogram.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_histogram()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/How to Make a Histogram.ipynb:    "ggplot(diamonds, aes(x='price', fill='cut')) + geom_histogram()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/How to make xkcd style graphs.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg')) + geom_point() + theme_xkcd()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/How to make xkcd style graphs.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='cyl')) + geom_point() + theme_xkcd()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/How to make xkcd style graphs.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + geom_line(color='red') + theme_xkcd()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Layering Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + ggtitle(\"Carat vs. Price\")"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Layering Plots.ipynb:    "- Base layer `ggplot(diamonds, aes(x='carat', y='price'))` -- This defines the dataset that's going to be plotted and the aesthetics (or instructions) to be used for defining the x and y axes.\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Layering Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Layering Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Layering Plots.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Look and Feel - Themes.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_histogram()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Look and Feel - Themes.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_histogram() + theme_gray()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Look and Feel - Themes.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_histogram() + theme_bw()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Look and Feel - Themes.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_histogram() + theme_xkcd()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Look and Feel - Themes.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_histogram() + theme_538()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Making Multiple Plots.ipynb:    "    p = ggplot(group, aes(x='price')) + geom_histogram() + ggtitle(name)\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Making Multiple Plots.ipynb:    "    p = ggplot(group, aes(x='price')) + geom_histogram() + ggtitle(name)\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Making a Scatter Plot.ipynb:    "p = ggplot(mtcars, aes(x='wt', y='mpg'))\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Making a Scatter Plot.ipynb:    "p = ggplot(mtcars, aes(x='wt', y='mpg', color='qsec')) + geom_point()\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Making a Scatter Plot.ipynb:    "p = ggplot(mtcars, aes(x='wt', y='mpg', color='name')) + geom_point()\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Making a Scatter Plot.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Plotting two variables as lines on the same graph.ipynb:    "ggplot(df, aes(x='date', y='value', color='variable')) + geom_line()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Visualizing Distributions.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_density()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Visualizing Distributions.ipynb:    "ggplot(diamonds, aes(x='price')) + stat_density()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Visualizing Distributions.ipynb:    "ggplot(diamonds, aes(x='price', color='clarity')) + stat_density()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Visualizing Distributions.ipynb:    "ggplot(diamonds, aes(x='price', color='clarity', linetype='cut')) + stat_density()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Visualizing Distributions.ipynb:    "ggplot(diamonds, aes(x='price')) + geom_histogram()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/how-to/Visualizing Distributions.ipynb:    "ggplot(diamonds, aes(x='price', fill='clarity')) + geom_histogram()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/plotting/aesthetics.ipynb:    "my_aes = aes(x='date', y='beef')\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_alpha_identity.ipynb:    "ggplot(df, aes(x='x', y='y', alpha='ze-alpha')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_brewer.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + geom_point()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_brewer.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_brewer.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_brewer.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_brewer.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_brewer.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_crayon.ipynb:    "ggplot(df, aes(x='x', y='y', color='ze-color')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_funfetti.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_funfetti.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_funfetti.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_funfetti.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_funfetti.ipynb:    "ggplot(pigeons, aes(x='pos', y='speed', color='breeder')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_gradient.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos', color='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_gradient.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos', color='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_gradient.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos', color='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_gradient.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos', color='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_identity.ipynb:    "ggplot(df, aes(x='x', y='y', color='ze-color')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_manual.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_manual.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_manual.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_color_yhat.ipynb:    "ggplot(mtcars, aes(x='wt', y='mpg', color='factor(cyl)')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_fill_brewer.ipynb:    "ggplot(mtcars, aes(x='factor(cyl)', fill='factor(vs)')) + geom_bar() + scale_fill_brewer()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_fill_brewer.ipynb:    "ggplot(mtcars, aes(x='factor(cyl)', fill='factor(vs)')) + geom_bar() + scale_fill_brewer(type='div')"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_fill_brewer.ipynb:    "ggplot(mtcars, aes(x='factor(cyl)', fill='factor(vs)')) + geom_bar() + scale_fill_brewer(type='div', palette=3)"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_fill_identity.ipynb:    "ggplot(df, aes(x='x', y='y', fill='ze-color')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_fill_yhat.ipynb:    "ggplot(mtcars, aes(x='factor(cyl)', fill='factor(vs)')) + geom_bar() + scale_fill_yhat()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_fill_yhat.ipynb:    "ggplot(mtcars, aes(x='factor(cyl)', fill='factor(gear)')) + geom_bar() + scale_fill_yhat()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_fill_yhat.ipynb:    "ggplot(diamonds, aes(x='clarity', fill='cut')) + geom_bar() + scale_fill_yhat()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_fill_yhat.ipynb:    "ggplot(diamonds, aes(x='pd.cut(price, nbins=10)', fill='cut')) + geom_bar() + scale_fill_yhat()"
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_continuous.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_continuous.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_continuous.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_date.ipynb:    "ggplot(meat, aes('date','beef')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_date.ipynb:    "ggplot(meat, aes(x='date', y='beef')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_date.ipynb:    "ggplot(meat, aes(x='date', ymin='beef - 1000', ymax='beef + 1000')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_date.ipynb:    "ggplot(pageviews, aes(x='date_hour', y='pageviews')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_discrete.ipynb:    "ggplot(diamonds, aes(x='cut')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_log.ipynb:    "ggplot(diamonds, aes(x='price', y='carat')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_log.ipynb:    "ggplot(pigeons, aes(x='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_log.ipynb:    "ggplot(diamonds, aes(x='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_log.ipynb:    "ggplot(diamonds, aes(x='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_reverse.ipynb:    "ggplot(diamonds, aes(x='price', y='carat')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_reverse.ipynb:    "ggplot(pigeons, aes(x='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_x_reverse.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_continuous.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_continuous.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_continuous.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_log.ipynb:    "ggplot(diamonds, aes(x='carat', y='price')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_log.ipynb:    "ggplot(pageviews, aes(x='hour', weight='pageviews')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_log.ipynb:    "ggplot(pageviews, aes(x='hour', weight='pageviews')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_reverse.ipynb:    "ggplot(diamonds, aes(x='price', y='carat')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_reverse.ipynb:    "ggplot(pigeons, aes(x='speed')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_reverse.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/scales/scale_y_reverse.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/stats/stat_smooth.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/stats/stat_smooth.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/stats/stat_smooth.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/stats/stat_smooth.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/docs/stats/stat_smooth.ipynb:    "ggplot(pigeons, aes(x='speed', y='pos')) + \\\n",
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/aes.py:class aes(UserDict):
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/aes.py:    >>> aes(x='x', y='y')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/aes.py:    >>> aes('x', 'y')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/aes.py:    >>> aes(x='weight', y='height', color='salary')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/aes.py:        result = aes()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/chart_components.py:    >>> ggplot(mpg, aes(x='hwy')) + geom_hisotgram() + ggtitle("MPG Plot")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/chart_components.py:    >>> ggplot(mpg, aes(x='hwy')) + geom_hisotgram() + xlim(0, 20)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/chart_components.py:    >>> ggplot(mpg, aes(x='hwy')) + geom_hisotgram() + ylim(0, 5)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/chart_components.py:    >>> ggplot(mpg, aes(x='hwy')) + geom_hisotgram() + xlab("Miles / gallon")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/chart_components.py:    >>> ggplot(mpg, aes(x='hwy')) + geom_hisotgram() + ylab("Count\n(# of cars)")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/chart_components.py:    >>> ggplot(mpg, aes(x='hwy')) + geom_hisotgram() + labs("Miles / gallon", "Count\n(# of cars)", "MPG Plot")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/qplot.py:    _aes = aes(**aes_elements)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_color_gradient.py:    >>> gg = ggplot(diamons_premium, aes(x='depth', y='carat', colour='price')) + \\
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_color_manual.py:    >>> gg = ggplot(lng, aes('date', 'value', color='variable')) + \\
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_color_yhat.py:    >>> gg = ggplot(lng, aes('date', y='beef', color='variable')) + \\
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_fill_manual.py:    >>> gg = ggplot(lng, aes('date', fill='variable')) + \\
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_fill_yhat.py:    >>> gg = ggplot(lng, aes('date', fill='variable')) + \\
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_log.py:    >>> ggplot(diamonds, aes(x='price')) + geom_histogram() + scale_y_log()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_log.py:    >>> ggplot(diamonds, aes(x='price')) + geom_histogram() + scale_y_log(base=2)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_log.py:    >>> ggplot(diamonds, aes(x='price', y='carat')) + geom_point() + scale_x_log()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_log.py:    >>> ggplot(diamonds, aes(x='price', y='carat')) + geom_point() + scale_x_log(base=2)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_reverse.py:    >>> ggplot(diamonds, aes(x='price')) + geom_histogram() + scale_y_reverse()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_reverse.py:    >>> ggplot(diamonds, aes(x='price')) + geom_histogram() + scale_x_reverse()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_x_continuous.py:    >>> print ggplot(mtcars, aes('mpg', 'qsec')) + \
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_x_date.py:    >>> print(ggplot(meat, aes('date','beef')) + \\
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_x_date.py:    >>> print(ggplot(meat, aes('date','beef')) + \\
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_y_continuous.py:    >>> print ggplot(mtcars, aes('mpg', 'qsec')) + \
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_y_date.py:    >>> print(ggplot(meat, aes('date','beef')) + \\
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/scales/scale_y_date.py:    >>> print(ggplot(meat, aes('date','beef')) + \\
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/themes/theme.py:    >>> ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/themes/theme.py:    >>> ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(plot_margin=dict(bottom=0.2, left=0.2))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/themes/theme.py:    >>> ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(axis_text=element_text(size=20))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/themes/theme.py:    >>> ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(x_axis_text=element_text(color="orange"), y_axis_text=element_text(color="blue"))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/ggplot/themes/theme.py:    >>> ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(axis_text=element_text(size=20), x_axis_text=element_text(color="orange"), y_axis_text=element_text(color="blue"))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/facet_tests.py:# print ggplot(diamonds, aes(x='price')) + geom_histogram() + facet_wrap('cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/facet_tests.py:print ggplot(diamonds, aes(x='price', color='factor(cyl)')) + geom_boxplot()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/legendtest.py:print ggplot(mtcars, aes(x='mpg', fill='newcol')) + geom_histogram() + scale_fill_identity()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/legendtest.py:print ggplot(mtcars, aes(x='wt', y='mpg', color='newcol', shape='newcol')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/legendtest.py:print ggplot(mtcars, aes(x='mpg', y='wt')) + geom_point(color='royalblue')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/legendtest.py:print ggplot(mtcars, aes(x='mpg', fill='factor(cyl)')) + geom_bar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/legendtest.py:print ggplot(mtcars, aes(x='mpg', y='wt', group='newcol')) + geom_line()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/legendtest.py:print ggplot(df, aes(x='x', y='y', group='newcol')) + geom_line()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_aes_in_geom.py:print ggplot(mtcars, aes(x='wt', y='mpg')) + geom_point(aes(size='cyl'), color='blue')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_area.py:print ggplot(df, aes(x='date', y='value', fill='variable')) + geom_area()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_art.py:print ggplot(diamonds, aes('price')) + geom_now_its_art()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:p = ggplot(mtcars, aes(x='factor(cyl)', fill='factor(gear)')) + geom_bar(position='stack') + facet_wrap('vs')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:p = ggplot(df, aes(x='x', weight='wt')) + geom_bar(color='teal') + scale_fill_identity()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:p = ggplot(df, aes(x='x', weight='wt', fill='filler')) + geom_bar() + scale_fill_identity()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:p = ggplot(df, aes(x='x', weight='wt', fill='filler')) + geom_bar(position='fill') + scale_fill_identity()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:p = ggplot(mtcars, aes(x='factor(cyl)', fill='factor(gear)')) + geom_bar(position='stack') + facet_wrap('vs')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:p = ggplot(mtcars, aes(x='factor(cyl)', fill='factor(gear)')) + geom_bar(position='stack') + facet_wrap('vs', 'am')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(mtcars, aes(x='factor(cyl)', fill='factor(gear)')) + geom_bar(position='fill')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(df, aes(x='x', fill='filler')) + geom_bar(position='fill') + scale_fill_identity() + facet_wrap('thingy')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(df, aes(x='x', fill='filler')) + geom_bar(position='fill') + facet_wrap('thingy')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(mtcars, aes(x='factor(cyl)', fill='factor(gear)')) + geom_bar(position='fill')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(mtcars, aes(x='factor(cyl)', fill='factor(vs)')) + geom_bar(position='fill')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(df, aes(x='x', weight='wt', fill='filler')) + geom_bar() + scale_fill_identity()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(df, aes(x='x', fill='filler')) + geom_bar() + scale_fill_identity()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(df, aes(x='x', weight='wt')) + geom_bar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(df, aes(x='x')) + geom_bar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(diamonds, aes(x='clarity', fill='cut')) + geom_bar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_bar.py:# p = ggplot(diamonds, aes(x='clarity', fill='cut')) + geom_bar(position='fill') + facet_wrap('cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_boxplot.py:print ggplot(mpg, aes(x='class', y='hwy')) + geom_boxplot()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_boxplot.py:print ggplot(mpg, aes(x='class', y='hwy')) + geom_boxplot() + facet_wrap('manufacturer')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_boxplot.py:print ggplot(diamonds, aes('pd.cut(carat, bins=10, labels=range(10))', 'price')) + geom_boxplot()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_boxplot.py:print ggplot(diamonds, aes(x='clarity', y='price')) + geom_boxplot()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_element_text.py:# print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_element_text.py:# print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(plot_margin=dict(bottom=0.2, left=0.2))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_element_text.py:# print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(axis_title_x=element_text(size=20, hjust=0.1, vjust=0))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_element_text.py:print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(x_axis_text=element_text(color="orange"), y_axis_text=element_text(color="blue"))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_element_text.py:print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(axis_text=element_text(size=20), x_axis_text=element_text(color="orange"), y_axis_text=element_text(color="blue"))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_element_text.py:# print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(plot_title=txt, axis_title_x=newTxt, axis_title_y=myY)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_element_text.py:# print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + theme(title=txt, xlab=newTxt, ylab=myY)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_element_text.py:# print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + facet_wrap("cyl") + theme(title=txt, xlab=newTxt, ylab=myY)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_element_text.py:# print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + ggtitle("Hello!")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_error_messages.py:print ggplot(diamonds, aes(x='pricee')) + geom_histogram()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_facet_scales.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price')) + geom_point() + facet_grid('cut', scales='free')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_facet_scales.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price')) + geom_point() + facet_grid('cut', scales='free_x')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_facet_scales.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price')) + geom_point() + facet_grid('cut', scales='free_y')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_facet_scales.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price')) + geom_point() + facet_wrap('cut', scales='free')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_facet_scales.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price')) + geom_point() + facet_wrap('cut', scales='free_x')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_facet_scales.py:p = ggplot(diamonds.sample(1000), aes(x='carat', y='price')) + geom_point() + facet_wrap('cut', scales='free_y')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_facets.py:print ggplot(diamonds, aes(x='clarity', weight='price')) + geom_bar() + facet_grid('color', 'cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_facets.py:print ggplot(diamonds, aes(x='clarity', weight='price', fill='color')) + geom_bar() + facet_grid('color', 'cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_facets.py:print ggplot(diamonds, aes(x='clarity', y='price')) + geom_boxplot() + facet_wrap('cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_geom_errorbar.py:print ggplot(mpg, aes(x='class', y='hwy')) + geom_errorbar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_geom_histogram.py:print ggplot(diamonds, aes(x='price')) + geom_histogram()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_geom_histogram.py:print ggplot(diamonds, aes(x='price')) + geom_histogram(bins=50)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_geom_polygon.py:print ggplot(df, aes(x='x', y='y', fill='g')) + geom_polygon()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_geom_polygon.py:print ggplot(df, aes(x='x', y='y', color='g')) + geom_polygon()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_geom_polygon.py:print ggplot(df[df.g=="b"], aes(x='x', y='y')) + geom_polygon(alpha=0.25, linetype='dashed')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_index.py:print ggplot(meat, aes(x='__index__', y='beef')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_line.py:print ggplot(df, aes(x='x', y='y')) + geom_line()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_line.py:print ggplot(df, aes(x='x', y='y')) + geom_path()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_point.py:print ggplot(df, aes(x='date', y='value', color='variable')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_rect.py:p = ggplot(df, aes(xmin='x - w / 2', xmax='x + w / 2', ymin='y', ymax='y + 1', fill='z')) + geom_rect()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_rect.py:p = ggplot(df, aes(xmin='x - w / 2', xmax='x + w / 2', ymin='y', ymax='y + 1', fill='z')) + geom_rect(color='black')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_rect.py:p = ggplot(df, aes(xmin='x - w / 2', xmax='x + w / 2', ymin='y', ymax='y + 1', fill='z')) + \
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_stat_smooth.py:print ggplot(meat, aes(x='date', y='beef')) + stat_smooth() + scale_x_date(labels=date_format('%Y'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_stat_smooth.py:print ggplot(meat, aes(x='date', y='beef')) + stat_smooth(method='ma', window=12) + scale_x_date(labels=date_format('%Y'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_step.py:p = ggplot(meat, aes(x='date', y='beef')) + geom_step()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_step.py:p = ggplot(df, aes(x='x', y='y')) + geom_step()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_step.py:p = ggplot(df, aes(x='x', y='y', color='z')) + geom_step()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_step.py:p = ggplot(df, aes(x='x', y='y')) + geom_step() + facet_wrap("z")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_text.py:p = ggplot(mtcars, aes(x='wt', y='mpg', label='name', color='factor(cyl)')) + geom_text()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_tile.py:p = ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(interpolate=True)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_tile.py:# p = ggplot(df, aes(x='x', y='y', fill='w')) + geom_bin2d()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_tile.py:# p = ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(xbins=5)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_tile.py:# p = ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(ybins=5)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_tile.py:# p = ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(xbins=8, ybins=10)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_unicode.py:print ggplot(mtcars, aes(x='mpg')) + geom_histogram() + xlab("Scrüm")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_violin.py:p = ggplot(mtcars, aes('factor(cyl)', 'mpg'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_violin.py:print ggplot(diamonds, aes(x='clarity', y='price')) + geom_violin()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_point x, y", ggplot(mpg, aes(x='cty', y='hwy')) + geom_point())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_point x, y, color", ggplot(mpg, aes(x='cty', y='hwy', color='manufacturer')) + geom_point())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_point x, y, shape", ggplot(mpg, aes(x='cty', y='hwy', shape='manufacturer')) + geom_point())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_point x, y, alpha", ggplot(mpg, aes(x='cty', y='hwy', alpha='year')) + geom_point())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_point x, y, alpha parameter", ggplot(mpg, aes(x='cty', y='hwy')) + geom_point(alpha=0.25))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_line basic", ggplot(df, aes(x='x', y='y')) + geom_line())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_step basic", ggplot(df, aes(x='x', y='y')) + geom_path())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_histogram basic", ggplot(diamonds, aes(x='price')) + geom_histogram())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_histogram bins parameter", ggplot(diamonds, aes(x='price')) + geom_histogram(bins=50))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_histogram fill", ggplot(diamonds, aes(x='price', fill='clarity')) + geom_histogram())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_histogram color", ggplot(diamonds, aes(x='price', color='clarity')) + geom_histogram())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_polygon basic", ggplot(df[df.g=="a"], aes(x='x', y='y')) + geom_polygon())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_polygon fill", ggplot(df, aes(x='x', y='y', fill='g')) + geom_polygon())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_polygon color", ggplot(df, aes(x='x', y='y', color='g')) + geom_polygon())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_polygon with alpha parameter", ggplot(df[df.g=="b"], aes(x='x', y='y')) + geom_polygon(alpha=0.25))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_polygon linetype and size parameters", ggplot(df, aes(x='x', y='y', color='g')) + geom_polygon(linetype='dashed', size=10))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_errorbar basic", ggplot(mpg, aes(x='class', y='hwy')) + geom_errorbar())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_errorbar color (doesn't work)", ggplot(mpg, aes(x='class', y='hwy', color='manufacturer')) + geom_errorbar())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_boxplot basic", ggplot(mpg, aes(x='class', y='hwy')) + geom_boxplot())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_boxplot with patsy", ggplot(diamonds, aes('pd.cut(carat, bins=10, labels=range(10))', 'price')) + geom_boxplot())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:p = ggplot(df, aes(xmin='x - w / 2', xmax='x + w / 2', ymin='y', ymax='y + 1', fill='z')) + geom_rect()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:p = ggplot(df, aes(xmin='x - w / 2', xmax='x + w / 2', ymin='y', ymax='y + 1', fill='z')) + geom_rect(color='black')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_violin basic", ggplot(mtcars, aes('factor(cyl)', 'mpg')) + geom_violin())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_tile with interpolate", ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(interpolate=True))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:# test("geom_bin2d with fill", ggplot(df, aes(x='x', y='y', fill='w')) + geom_bin2d())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:# test("geom_tile with xbins", ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(xbins=5))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:# test("geom_tile with ybins", ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(ybins=5))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:# test("geom_tile with xbins and ybins", ggplot(df, aes(x='x', y='y', fill='w')) + geom_tile(xbins=8, ybins=10))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_text basic", ggplot(mtcars, aes(x='wt', y='mpg', label='name')) + geom_text())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_text with color", ggplot(mtcars, aes(x='wt', y='mpg', label='name', color='factor(cyl)')) + geom_text())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("nan geom_point", ggplot(df, aes(x='x', y='y')) + geom_point())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("nan geom_line", ggplot(df, aes(x='x', y='y')) + geom_line())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("nan geom_step", ggplot(df, aes(x='x', y='y')) + geom_step())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("nan geom_histogram", ggplot(df, aes(x='x')) + geom_histogram())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("nan geom_histogram with weight", ggplot(df, aes(x='x', weight='x')) + geom_histogram())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("nan geom_density with weight", ggplot(df, aes(x='x', weight='x')) + geom_density())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_bar stack", ggplot(mtcars, aes(x='factor(cyl)', fill='factor(gear)')) + geom_bar(position='stack'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_bar fill identity", ggplot(df, aes(x='x', weight='wt')) + geom_bar(color='teal') + scale_fill_identity())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_bar weight and fill with identity fill", ggplot(df, aes(x='x', weight='wt', fill='filler')) + geom_bar() + scale_fill_identity())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_bar weight with fill position", ggplot(df, aes(x='x', weight='wt', fill='filler')) + geom_bar(position='fill') + scale_fill_identity())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_bar factor x and fill", ggplot(mtcars, aes(x='factor(cyl)', fill='factor(gear)')) + geom_bar(position='fill'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("geom_now_its_art", ggplot(diamonds, aes('price')) + geom_now_its_art())
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("facet_wrap basic", ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("facet_wrap 2 variables",  ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='color', y='cut'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("facet_wrap with equal coords", ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + coord_equal() + facet_wrap(x='color', y='cut'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:# test("facet_wrap with abline", ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + geom_abline(slope=5000, intercept=-500) + facet_wrap(y='clarity'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("facet_wrap with continuous x and y scales", ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_continuous(breaks=[0, 3, 6], labels=["Low", "Medium", "High"]) + scale_y_continuous(breaks=[0, 10000, 20000], labels=["Low", "Medium", "High"]) + facet_wrap(x='color'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:# test("facet_grid with 1 variable", ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + facet_grid(y='z'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:# test("facet_grid with x date formatting", ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + scale_x_date(labels=date_format('%B %-d, %Y')) + facet_grid(y='z'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/test_visual.py:test("facet_grid with color brewer", ggplot(diamonds, aes(x='carat', y='price', shape='cut', color='clarity')) + geom_point() + scale_color_brewer() + facet_grid(x='color'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(mtcars, aes(x='mpg', y='cyl', color='steelblue')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(mtcars, aes(x='mpg', y='cyl')) + geom_point(color='green')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(100), aes(x='carat', y='price')) + geom_point() + facet_wrap('clarity', ncol=4)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(100), aes(x='carat', y='price')) + geom_point() + facet_wrap('clarity', nrow=5)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(x='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(1000), aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity', y='cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', size='clarity')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', size='x')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', alpha='x')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', alpha='x')) + geom_point() + facet_grid(x='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(1000), aes(x='carat', y='price', alpha='x')) + geom_point() + facet_grid(y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price', shape='clarity')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(100), aes(x='carat', y='price', shape='cut', color='clarity')) + geom_point() + scale_color_brewer() + facet_grid(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds.sample(100), aes(x='carat', y='price', shape='cut', color='clarity')) + geom_point() + scale_color_brewer() + facet_grid(x='color')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(100), aes(x='carat', y='price')) + geom_point() + scale_color_brewer() + facet_grid(x='color', y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds.sample(100), aes(x='carat', y='price')) + geom_point() + scale_color_brewer() + facet_grid(x='color', y='clarity')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(100), aes(x='carat', y='price', shape='cut', color='clarity')) + geom_point() + scale_color_brewer() + facet_grid(y='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds.sample(100), aes(x='carat', y='price', shape='cut', color='clarity')) + geom_point() + scale_color_brewer() + facet_grid(y='color')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(100), aes(x='carat', y='price', color='clarity')) + geom_point() + scale_color_brewer(type='div')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds.sample(100), aes(x='carat', y='price', color='clarity')) + geom_point() + scale_color_brewer(type='div')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(100), aes(x='carat', y='price', color='x')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds.sample(100), aes(x='carat', y='price', color='x')) + geom_point()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds.sample(100), aes(x='carat', y='price', linetype='cut')) + geom_line()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds.sample(100), aes(x='carat', y='price', linetype='cut')) + geom_line()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat')) + geom_histogram()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds, aes(x='carat')) + geom_histogram()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price', color='clarity')) + geom_point() + xlab("THIS IS AN X LABEL") + ylab("THIS IS A Y LABEL") + ggtitle("THIS IS A TITLE")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds, aes(x='carat', y='price', color='clarity')) + geom_point() + xlab("THIS IS AN X LABEL") + ylab("THIS IS A Y LABEL") + ggtitle("THIS IS A TITLE")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat')) + geom_density()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds, aes(x='carat')) + geom_density()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='price')) + geom_hline(y=10)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='price')) + geom_hline(y=10)""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='price')) + geom_vline(x=10)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='price')) + geom_vline(x=10)""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='clarity')) + geom_bar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='clarity')) + geom_bar()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='clarity', weight='x')) + geom_bar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='clarity', weight='x')) + geom_bar()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + geom_abline(slope=5000, intercept=-500)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + geom_abline(slope=5000, intercept=-500)""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + geom_abline(slope=5000, intercept=-500) + facet_wrap(y='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + geom_abline(slope=5000, intercept=-500) + facet_wrap(y='clarity')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(df, aes(x='x', ymin='y_low', ymax='y_high')) + geom_area()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(df, aes(x='x', ymin='y_low', ymax='y_high')) + geom_area()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(df, aes(x='x', ymin='y_low', ymax='y_high')) + geom_area() + facet_wrap(x='thing')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(df, aes(x='x', ymin='y_low', ymax='y_high')) + geom_area() + facet_wrap(x='thing')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='clarity')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='color', y='cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='color', y='cut')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(x='color')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(y='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_grid(y='color')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(diamonds, aes(x='price')) + geom_histogram() + facet_grid(x='color', y='cut')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(diamonds, aes(x='price')) + geom_histogram() + facet_grid(x='color', y='cut')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_polar()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_polar()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_equal()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_equal()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_equal() + facet_wrap(x='z')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_equal() + facet_wrap(x='z')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_flip()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_flip()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_flip() + facet_grid(x='z')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(df, aes(x='x', y='y')) + geom_point() + coord_flip() + facet_grid(x='z')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + scale_x_date(labels=date_format('%B %-d, %Y'))
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + scale_x_date(labels=date_format('%B %-d, %Y'))""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + scale_x_date(labels=date_format('%B %-d, %Y')) + facet_grid(y='z')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + scale_x_date(labels=date_format('%B %-d, %Y')) + facet_grid(y='z')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + facet_grid(y='z')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(pageviews, aes(x='date_hour', y='pageviews')) + geom_line() + facet_grid(y='z')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth(method='lm')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth(method='lm')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth(method='lowess')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth(method='lowess')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth(method='lowess', span=0.2)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:print """p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth(method='lowess', span=0.2)""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(x='color')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(y='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + facet_wrap(y='color')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + scale_color_manual(values=['pink', 'skyblue'])
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + scale_color_manual(values=['pink', 'skyblue'])""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='tip')) + geom_point() + scale_color_gradient(low='pink', high='royalblue')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='tip')) + geom_point() + scale_color_gradient(low='pink', high='royalblue')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() +  scale_x_log() + scale_y_log()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() +  scale_x_log() + scale_y_log()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_log() + scale_y_log() + facet_wrap(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_log() + scale_y_log() + facet_wrap(x='color')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_reverse() + scale_y_reverse() + facet_wrap(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_reverse() + scale_y_reverse() + facet_wrap(x='color')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_continuous(breaks=[0, 3, 6], labels=["Low", "Medium", "High"]) + scale_y_continuous(breaks=[0, 10000, 20000], labels=["Low", "Medium", "High"]) + facet_wrap(x='color')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(diamonds, aes(x='carat', y='price')) + geom_point() + scale_x_continuous(breaks=[0, 3, 6], labels=["Low", "Medium", "High"]) + scale_y_continuous(breaks=[0, 10000, 20000], labels=["Low", "Medium", "High"]) + facet_wrap(x='color')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + theme_gray()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + theme_gray()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + theme_xkcd()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + theme_xkcd()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point(color='orange')
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point(color='orange')""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex', shape='smoker', size='tip')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='sex', shape='smoker', size='tip')) + geom_point()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + facet_wrap(x="time")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + facet_wrap(x="time")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + facet_wrap(y="time")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + facet_wrap(y="time")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + facet_wrap(x="time")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + facet_wrap(x="time")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + geom_line() + facet_wrap(x="time", y="smoker")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip', color='sex')) + geom_point() + geom_line() + facet_wrap(x="time", y="smoker")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() + facet_wrap(x="time", y="smoker")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() + facet_wrap(x="time", y="smoker")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() + scale_color_brewer()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() + scale_color_brewer()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() + theme_538()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_point() + theme_538()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + xlim(low=10, high=25) + ylim(2, 12)
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + xlim(low=10, high=25) + ylim(2, 12)""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + labs(x="this is x", y="this is y", title="this is title")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + labs(x="this is x", y="this is y", title="this is title")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + geom_vline(x=30) + geom_hline(y=10) + ylab("GOo!") + ggtitle("This is a title")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + geom_vline(x=30) + geom_hline(y=10) + ylab("GOo!") + ggtitle("This is a title")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + facet_wrap(x="time", y="smoker")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + stat_smooth() + facet_wrap(x="time", y="smoker")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_line(color="blue") + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_line(color="blue") + geom_point()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_line(color="blue") + geom_point() + facet_wrap(x="time", y="smoker")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill', y='tip')) + geom_line(color="blue") + geom_point() + facet_wrap(x="time", y="smoker")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill')) + geom_histogram()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill')) + geom_histogram()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill')) + geom_density()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill')) + geom_density()""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# p = ggplot(tips, aes(x='total_bill')) + geom_density() + facet_wrap(y="time")
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests.py:# print """p = ggplot(tips, aes(x='total_bill')) + geom_density() + facet_wrap(y="time")""",  p
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests_nan.py:print ggplot(df, aes(x='x', y='y')) + geom_point()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests_nan.py:print ggplot(df, aes(x='x', y='y')) + geom_line()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests_nan.py:print ggplot(df, aes(x='x', y='y')) + geom_step()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests_nan.py:print ggplot(df, aes(x='x')) + geom_histogram()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests_nan.py:print ggplot(df, aes(x='x', weight='x')) + geom_histogram()
+/media/ubuntu/DATA/repositories-python/yhat__ggpy/tests/tests_nan.py:print ggplot(df, aes(x='x', weight='x')) + geom_density()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/hydrogen/hydrogen_latex_html_R_magics.py:ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/ipynb_R/R notebook with invalid cell keys.ipynb:    "ggplot(mtcars, aes(mpg)) + stat_ecdf()"
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/ipynb_py/Notebook with html and latex cells.ipynb:    "ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()"
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/ipynb_py/Notebook_with_R_magic.ipynb:    "ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()"
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/ipynb_py/Notebook_with_R_magic.ipynb:    "ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()"
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_Rmd/Notebook with html and latex cells.Rmd:ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_Rmd/Notebook_with_R_magic.Rmd:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_Rmd/Notebook_with_R_magic.Rmd:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_Rmd/R notebook with invalid cell keys.Rmd:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_hydrogen/Notebook with html and latex cells.py:ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_hydrogen/Notebook_with_R_magic.py:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_hydrogen/Notebook_with_R_magic.py:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_hydrogen/R notebook with invalid cell keys.R:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_md/Notebook with html and latex cells.md:ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_md/Notebook_with_R_magic.md:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_md/Notebook_with_R_magic.md:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_md/R notebook with invalid cell keys.md:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_myst/Notebook with html and latex cells.md:ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_myst/Notebook_with_R_magic.md:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_myst/Notebook_with_R_magic.md:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_myst/R notebook with invalid cell keys.md:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_pandoc/Notebook_with_R_magic.md:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_pandoc/Notebook_with_R_magic.md:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_percent/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_percent/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_percent/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_percent/R notebook with invalid cell keys.R:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_percent/R notebook with invalid cell keys.low.r:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script/R notebook with invalid cell keys.R:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script/R notebook with invalid cell keys.low.r:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script_vim_folding_markers/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script_vim_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script_vim_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script_vscode_folding_markers/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script_vscode_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_script_vscode_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_spin/R notebook with invalid cell keys.R:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/ipynb_to_spin/R notebook with invalid cell keys.low.r:ggplot(mtcars, aes(mpg)) + stat_ecdf()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/tests/notebooks/mirror/script_to_ipynb/hydrogen_latex_html_R_magics.ipynb:    "ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()"
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/hydrogen/hydrogen_latex_html_R_magics.py:ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_hydrogen/Notebook with html and latex cells.py:ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_hydrogen/Notebook_with_R_magic.py:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_hydrogen/Notebook_with_R_magic.py:ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_percent/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_percent/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_percent/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vim_folding_markers/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vim_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vim_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vscode_folding_markers/Notebook with html and latex cells.py:# ggplot(data=data.frame(x=c('A', 'B'), y=c(5, 2)), aes(x,weight=y)) + geom_bar()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vscode_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/mwouts__jupytext/requirements_licma_analysis/jupytext-1.5.2/jupytext-1.5.2/tests/notebooks/mirror/ipynb_to_script_vscode_folding_markers/Notebook_with_R_magic.py:# ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color=Species)) + geom_point()
+/media/ubuntu/DATA/repositories-python/arielf__weight-loss/date-weight.r:g <- ggplot(data=d, aes(x=as.POSIXct(Date), y=Pounds)) +
+/media/ubuntu/DATA/repositories-python/arielf__weight-loss/score-chart.r:        aes(
+/media/ubuntu/DATA/repositories-python/AKSHAYUBHAT__DeepVideoAnalytics/server/dvaapp/static/ace/snippets/r.js:define("ace/snippets/r",["require","exports","module"],function(e,t,n){"use strict";t.snippetText='snippet #!\n	#!/usr/bin/env Rscript\n\n# includes\nsnippet lib\n	library(${1:package})\nsnippet req\n	require(${1:package})\nsnippet source\n	source(\'${1:file}\')\n\n# conditionals\nsnippet if\n	if (${1:condition}) {\n		${2:code}\n	}\nsnippet el\n	else {\n		${1:code}\n	}\nsnippet ei\n	else if (${1:condition}) {\n		${2:code}\n	}\n\n# functions\nsnippet fun\n	${1:name} = function (${2:variables}) {\n		${3:code}\n	}\nsnippet ret\n	return(${1:code})\n\n# dataframes, lists, etc\nsnippet df\n	${1:name}[${2:rows}, ${3:cols}]\nsnippet c\n	c(${1:items})\nsnippet li\n	list(${1:items})\nsnippet mat\n	matrix(${1:data}, nrow=${2:rows}, ncol=${3:cols})\n\n# apply functions\nsnippet apply\n	apply(${1:array}, ${2:margin}, ${3:function})\nsnippet lapply\n	lapply(${1:list}, ${2:function})\nsnippet sapply\n	sapply(${1:list}, ${2:function})\nsnippet vapply\n	vapply(${1:list}, ${2:function}, ${3:type})\nsnippet mapply\n	mapply(${1:function}, ${2:...})\nsnippet tapply\n	tapply(${1:vector}, ${2:index}, ${3:function})\nsnippet rapply\n	rapply(${1:list}, ${2:function})\n\n# plyr functions\nsnippet dd\n	ddply(${1:frame}, ${2:variables}, ${3:function})\nsnippet dl\n	dlply(${1:frame}, ${2:variables}, ${3:function})\nsnippet da\n	daply(${1:frame}, ${2:variables}, ${3:function})\nsnippet d_\n	d_ply(${1:frame}, ${2:variables}, ${3:function})\n\nsnippet ad\n	adply(${1:array}, ${2:margin}, ${3:function})\nsnippet al\n	alply(${1:array}, ${2:margin}, ${3:function})\nsnippet aa\n	aaply(${1:array}, ${2:margin}, ${3:function})\nsnippet a_\n	a_ply(${1:array}, ${2:margin}, ${3:function})\n\nsnippet ld\n	ldply(${1:list}, ${2:function})\nsnippet ll\n	llply(${1:list}, ${2:function})\nsnippet la\n	laply(${1:list}, ${2:function})\nsnippet l_\n	l_ply(${1:list}, ${2:function})\n\nsnippet md\n	mdply(${1:matrix}, ${2:function})\nsnippet ml\n	mlply(${1:matrix}, ${2:function})\nsnippet ma\n	maply(${1:matrix}, ${2:function})\nsnippet m_\n	m_ply(${1:matrix}, ${2:function})\n\n# plot functions\nsnippet pl\n	plot(${1:x}, ${2:y})\nsnippet ggp\n	ggplot(${1:data}, aes(${2:aesthetics}))\nsnippet img\n	${1:(jpeg,bmp,png,tiff)}(filename="${2:filename}", width=${3}, height=${4}, unit="${5}")\n	${6:plot}\n	dev.off()\n\n# statistical test functions\nsnippet fis\n	fisher.test(${1:x}, ${2:y})\nsnippet chi\n	chisq.test(${1:x}, ${2:y})\nsnippet tt\n	t.test(${1:x}, ${2:y})\nsnippet wil\n	wilcox.test(${1:x}, ${2:y})\nsnippet cor\n	cor.test(${1:x}, ${2:y})\nsnippet fte\n	var.test(${1:x}, ${2:y})\nsnippet kvt \n	kv.test(${1:x}, ${2:y})\n',t.scope="r"})
