@@ -5,7 +5,7 @@ This are the evaluation and scripts for out paper: "Python Crypto Misuses in the
 **Authors**:
 Anna-Katharina Wickert, Lars Baumgärtner, Florian Breitfelder, and Mira Mezini
 Technische Universität Darmstadt, D-64289 Darmstadt, Germany
-E-mail: {wickert, baumgaertner, mezini} (with) cs.tu-darmstadt.de, florian.br
+E-mail: {wickert, baumgaertner, mezini} (with) cs.tu-darmstadt.de, florian.breitfelder (with) tu-darmstadt.de
 
 ## Directory structure
 
