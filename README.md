@@ -1,11 +1,10 @@
 # Data Set: Python Crypto Misuses in the Wild
 
-This are the evaluation and scripts for out paper: "Python Crypto Misuses in the Wild".
+This are the evaluation and scripts for out paper: **Python Crypto Misuses in the Wild**.
 
-**Authors**:
-Anna-Katharina Wickert, Lars Baumgärtner, Florian Breitfelder, and Mira Mezini
-Technische Universität Darmstadt, D-64289 Darmstadt, Germany
-E-mail: {wickert, baumgaertner, mezini} (with) cs.tu-darmstadt.de, florian.breitfelder (with) tu-darmstadt.de
+*Authors*:
+<a itemprop="sameAs" content="https://orcid.org/0000-0002-1441-2423" href="https://orcid.org/0000-0002-1441-2423" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:left;">Anna-Katharina Wickert<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.5em;" alt="ORCID iD icon"></a>, <a itemprop="sameAs" content="https://orcid.org/0000-0002-5805-2773" href="https://orcid.org/0000-0002-5805-2773" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:left;">Lars Baumgärtner<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.5em;" alt="ORCID iD icon"></a>, <a itemprop="sameAs" content="https://orcid.org/0000-0003-2337-1819" href="https://orcid.org/0000-0003-2337-1819" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:left;">Florian Breitfelder<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.5em;" alt="ORCID iD icon"></a>, and <a itemprop="sameAs" content="https://orcid.org/0000-0001-6563-7537" href="https://orcid.org/0000-0001-6563-7537" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:left;">Mira Mezini<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.5em;" alt="ORCID iD icon"></a>.
+Technische Universität Darmstadt, D-64289 Darmstadt, Germany.
 
 ## Directory structure
 
@@ -20,7 +19,7 @@ We analyzed the top 895 Python repositories from GitHub sorted by stars.
 Further, we downloaded the dependencies from these projects with the standard dependency manager pip. 
 To gather these data, we used the Python and Shell scripts in `tools`.
 
-To improve the reproduction of our study, we provide the projects and dependencies source code as *zip* archives on Figshare: TODO ADD URL. 
+To improve the reproduction of our study, we provide the projects and dependencies source code as *zip* archives on Figshare: https://doi.org/10.6084/m9.figshare.16499085.v1. 
 
 ## Data: Python Crypto Misuses
 
