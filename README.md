@@ -31,7 +31,7 @@ The *hit-type* distinguishes between a definite (critical) and potential (warnin
 
 To reproduce Figures 2 to 4, you can simply run the R markdown which also provides more details.
 - Fig. 2 and Fig. 3: `evaluations/evaluation-python-code/python/06_licma_analysis_results/evaluation.Rmd`
-- `Fig. 4: evaluations/evaluation-python-code/python/06_licma_analysis_results/meta-analysis.Rmd`
+- Fig. 4: `evaluations/evaluation-python-code/python/06_licma_analysis_results/meta-analysis.Rmd`
 
 You can also view the corresponding by us generated md files.
 
